@@ -41,12 +41,12 @@
                     html += '<p>'+ name +'</p>';
                     html += '</li>';
                   }
-                  if (html == "") { html = "No messages yet!"; }
+                  if (html == "") { html = "<li>No messages yet!</li>"; }
                   $("#messages-list").html(html);
                   $('#messages-list').listview('refresh');
                 },
                 function(){
-                  $("#messages-list").html("There was an error getting the messages!");
+                  $("#messages-list").html("<li>There was an error getting the messages!</li>");
                 }
               );
             }
