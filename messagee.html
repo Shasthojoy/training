@@ -4,15 +4,13 @@
         <title></title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
-        <style type="text/css">.error{ background-color: #ffaaaa; } </style>
         <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
         <script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
         <script src="https://raw.github.com/apigee/usergrid-sample-html5-messagee/master/js/usergrid.appSDK.js" type="text/javascript"></script>
-        <script src="https://raw.github.com/apigee/usergrid-sample-html5-messagee/master/js/usergrid.session.js" type="text/javascript"></script>
         <script type="text/javascript">
           try {
             // first, set the org and app path.
-            Usergrid.ApiClient.init('tim', 'messageeapp');
+            Usergrid.ApiClient.init('tim', 'workshop');
           }
           catch (e) {
             $('#login-section-error')
@@ -43,12 +41,12 @@
                     html += '<p>'+ name +'</p>';
                     html += '</li>';
                   }
-                  if (html == "") { html = "No messages yet!"; }
+                  if (html == "") { html = "<li>No messages yet!</li>"; }
                   $("#messages-list").html(html);
                   $('#messages-list').listview('refresh');
                 },
                 function(){
-                  $("#messages-list").html("There was an error getting the messages!");
+                  $("#messages-list").html("<li>There was an error getting the messages!</li>");
                 }
               );
             }
@@ -86,6 +84,7 @@
             <a href="#page-new-message" id="btn-compose" data-icon="plus" data-iconpos="right" data-inline="true" data-role="button" data-rel="dialog" data-transition="fade" class="ui-btn-right">Compose</a>
           </div>
           <ul id="messages-list"  data-role="listview" data-inset="true" >
+            <li>No messages here!</li>
           </ul>
         </div>
 
