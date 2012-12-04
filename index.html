@@ -12,7 +12,7 @@
         <script type="text/javascript">
           try {
             // first, set the org and app path.
-            Usergrid.ApiClient.init('tim', 'messageeapp');
+            Usergrid.ApiClient.init('tim', 'workshop');
           }
           catch (e) {
             $('#login-section-error')
@@ -65,7 +65,7 @@
                                   "content" : content
                                 };
 
-              var message = new Usergrid.Entity('users/timanglade/activities');
+              var message = new Usergrid.Entity('activities');
               message.set(properties);
               message.save(
                 function(){
