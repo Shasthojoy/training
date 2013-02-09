@@ -6,29 +6,30 @@
         <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
         <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
         <script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
-        <script src="https://raw.github.com/timanglade/usergrid-sample-html5-messagee/master/js/usergrid.appSDK.js" type="text/javascript"></script>
+        <script src="http://raw.github.com/apigee/usergrid-javascript-sdk/0.10.4/usergrid.min.js"></script>
         <script type="text/javascript">
-          try {
-            // first, set the org and app path.
-            Usergrid.ApiClient.init('usergrid', 'demos');
-          }
-          catch (e) {
-            $('#login-section-error')
-              .html('There was an error initializing: ' + JSON.stringify(e));
-          }
-          Usergrid.ApiClient.getOrganizationName();
+        
+          var client = new Usergrid.Client({
+              orgName:'usergrid',
+              appName:'demos',
+              logging: true
+          });
 
           $(document).ready(function () {
-            $('#post-message').bind('click', postMessage);
 
+            $('#post-message').bind('click', postMessage);
+            
             refreshFeed();
 
             function refreshFeed() {
               //a new Collection object that will be used to hold the full feed list
-              var feed = new Usergrid.Collection("activities");
+              options = { "client":client,
+                          "type":"activities",
+                          "qs":{"ql":"order by created desc"}};
+
+              var feed = new Usergrid.Collection(options);
               //make sure messages are pulled back in order
-              feed.setQueryParams({"ql":"order by created desc"});
-              feed.get(
+              feed.fetch(
                 function(){
                   var html = "";
                   while(feed.hasNextEntity()) {
@@ -51,27 +52,23 @@
               );
             }
 
-
             function postMessage() {
 
-              var username = "timanglade"
+              content = $("#content").val();
 
-              var content = $("#content").val();
-              var properties = {
-                                  "actor" : { "username" : username },
-                                  "verb" : "post",
-                                  "content" : content
-                                };
+              options = { "type":"activities",
+                          "actor":{ "username" : "timanglade" },
+                          "verb":"post",
+                          "content":content };
 
-              var message = new Usergrid.Entity('activities');
-              message.set(properties);
-              message.save(
-                function(){
-                  refreshFeed();
-                  window.location = "#page-messages-list";
-                },
-                function(){ alert('Could not post'); }
-              );
+              client.createEntity(options, function (err, dog) {
+                  if (err) {
+                      alert('Could not post');
+                  } else {
+                    refreshFeed();
+                    window.location = "#page-messages-list";
+                  }
+              });
             }
           });
         </script>
