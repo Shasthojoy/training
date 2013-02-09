@@ -6,13 +6,12 @@
         <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
         <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
         <script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
-        <script src="http://raw.github.com/apigee/usergrid-javascript-sdk/0.10.4/usergrid.min.js"></script>
+        <script src="https://raw.github.com/apigee/usergrid-javascript-sdk/master/usergrid.js"></script>
         <script type="text/javascript">
         
           var client = new Usergrid.Client({
               orgName:'usergrid',
-              appName:'demos',
-              logging: true
+              appName:'demos'
           });
 
           $(document).ready(function () {
@@ -21,29 +20,25 @@
 
             function refreshFeed() {
               //a new Collection object that will be used to hold the full feed list
-              options = { "client":client,
-                          "type":"activities",
-                          "qs":{"ql":"order by created desc"}};
-
-              var feed = new Usergrid.Collection(options);
+              var feed = new Usergrid.Collection({ "client":client, "type":"books" });
               //make sure messages are pulled back in order
               feed.fetch(
                 function(){
                   var html = "";
                   while(feed.hasNextEntity()) {
                     var message = feed.getNextEntity(),
-                      content = message.get('content'),
-                      name = message.get('actor').username || 'anonymous';
+                      content = message.get('title'),
+                      name = message.get('author');
 
                     html += '<li>';
                     html += '<h3>' + content +'</h3>';
                     html += '<p>'+ name +'</p>';
                     html += '</li>';
                   }
-                  if (html == "") { html = "<li>No messages yet!</li>"; }
                   $("#messages-list").html(html);
                   $('#messages-list').listview('refresh');
                 },
+                
                 function(){
                   $("#messages-list").html("<li>There was an error getting the messages!</li>");
                 }

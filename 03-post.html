@@ -24,8 +24,8 @@
             function refreshFeed() {
               //a new Collection object that will be used to hold the full feed list
               options = { "client":client,
-                          "type":"activities",
-                          "qs":{"ql":"order by created desc"}};
+                          "type":"books",
+                          "qs":{"ql":"order by created desc", "limit":25}};
 
               var feed = new Usergrid.Collection(options);
               //make sure messages are pulled back in order
@@ -34,8 +34,8 @@
                   var html = "";
                   while(feed.hasNextEntity()) {
                     var message = feed.getNextEntity(),
-                      content = message.get('content'),
-                      name = message.get('actor').username || 'anonymous';
+                      content = message.get('title'),
+                      name = message.get('author');
 
                     html += '<li>';
                     html += '<h3>' + content +'</h3>';
@@ -56,10 +56,8 @@
 
               content = $("#content").val();
 
-              options = { "type":"activities",
-                          "actor":{ "username" : "timanglade" },
-                          "verb":"post",
-                          "content":content };
+              options = { "type":"books",
+                          "title":content };
 
               client.createEntity(options, function (err, dog) {
                   if (err) {
@@ -87,9 +85,11 @@
 
 
         <div data-role="page" data-theme="b" id="page-new-message">
+          
           <div data-role="header" data-theme="b">
             <h1>Create a new message</h1>
           </div>
+
           <div data-role="content">
             <form>
               <label for="content">Message (150 Chars max)</label>
