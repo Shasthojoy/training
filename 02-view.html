@@ -20,15 +20,15 @@
 
             function refreshFeed() {
               //a new Collection object that will be used to hold the full feed list
-              var feed = new Usergrid.Collection({ "client":client, "type":"books" });
+              var books = new Usergrid.Collection({ "client":client, "type":"books" });
               //make sure messages are pulled back in order
-              feed.fetch(
+              books.fetch(
                 function(){
                   var html = "";
-                  while(feed.hasNextEntity()) {
-                    var message = feed.getNextEntity(),
-                      content = message.get('title'),
-                      name = message.get('author');
+                  while(books.hasNextEntity()) {
+                    var book = books.getNextEntity(),
+                      content = book.get('title'),
+                      name = book.get('author');
 
                     html += '<li>';
                     html += '<h3>' + content +'</h3>';
@@ -38,7 +38,7 @@
                   $("#messages-list").html(html);
                   $('#messages-list').listview('refresh');
                 },
-                
+
                 function(){
                   $("#messages-list").html("<li>There was an error getting the messages!</li>");
                 }
