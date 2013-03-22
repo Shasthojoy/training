@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>Apigee Training App</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
         <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
@@ -9,10 +9,9 @@
         <script src="http://raw.github.com/apigee/usergrid-javascript-sdk/0.10.4/usergrid.min.js"></script>
         <script type="text/javascript">
         
-          var client = new Usergrid.Client({
-              orgName:'usergrid',
-              appName:'demos',
-              logging: true
+          var apigee = new Usergrid.Client({
+              orgName:'YOUR APIGEE.COM USERNAME',
+              appName:'sandbox'
           });
 
           $(document).ready(function () {
@@ -23,29 +22,26 @@
 
             function refreshFeed() {
               //a new Collection object that will be used to hold the full feed list
-              options = { "client":client,
-                          "type":"books",
-                          "qs":{"ql":"order by created desc", "limit":25}};
-
-              var feed = new Usergrid.Collection(options);
+              var my_books = new Usergrid.Collection({ "client":apigee, "type":"books" });
               //make sure messages are pulled back in order
-              feed.fetch(
+              my_books.fetch(
+                
+                // Success Callback
                 function(){
                   var html = "";
-                  while(feed.hasNextEntity()) {
-                    var message = feed.getNextEntity(),
-                      content = message.get('title'),
-                      name = message.get('author');
+                  while(my_books.hasNextEntity()) {
+                    var current_book = my_books.getNextEntity();
 
                     html += '<li>';
-                    html += '<h3>' + content +'</h3>';
-                    html += '<p>'+ name +'</p>';
+                    html += '<h3>' + current_book.get('title') +'</h3>';
+                    html += '<p>'+ current_book.get('author') +'</p>';
                     html += '</li>';
                   }
-                  if (html == "") { html = "<li>No messages yet!</li>"; }
                   $("#messages-list").html(html);
                   $('#messages-list').listview('refresh');
                 },
+                
+                // Failure Callback
                 function(){
                   $("#messages-list").html("<li>There was an error getting the messages!</li>");
                 }
@@ -58,13 +54,13 @@
 
               options = { "type":"books",
                           "title":content };
-
-              client.createEntity(options, function (err, response) {
-                  if (err) {
+                          
+              apigee.createEntity(options, function (error, response) {
+                  if (error) {
                       alert('Could not post');
                   } else {
                     refreshFeed();
-                    window.location = "#page-messages-list";
+                    history.back(); // or: window.location = "#page-messages-list";
                   }
               });
             }
@@ -75,7 +71,7 @@
 
         <div data-role="page" data-theme="c" id="page-messages-list">
           <div data-role="header" data-theme="b">
-            <h1>Messagee</h1>
+            <h1>My Books</h1>
             <a href="#page-new-message" id="btn-compose" data-icon="plus" data-iconpos="right" data-inline="true" data-role="button" data-rel="dialog" data-transition="fade" class="ui-btn-right">Compose</a>
           </div>
           <ul id="messages-list"  data-role="listview" data-inset="true" >
@@ -87,22 +83,16 @@
         <div data-role="page" data-theme="b" id="page-new-message">
           
           <div data-role="header" data-theme="b">
-            <h1>Create a new message</h1>
+            <h1>Add a New Book</h1>
           </div>
 
           <div data-role="content">
             <form>
-              <label for="content">Message (150 Chars max)</label>
+              <label for="content">Title</label>
               <textarea id="content" class="input-xlarge" rows="3" style="margin: 0px; width: 100%; height: 125px; "></textarea>
             </form>
-            <div class="ui-grid-a">
-              <div class="ui-block-a">
-                <a href="#page-messages-list" id="btn-close-new-message" data-role="button" data-theme="c">Cancel</a>
-              </div>
-              <div class="ui-block-b">
-                <button id="post-message">Post</button>
-              </div>
-            </div>
+            <a href="#page-messages-list" id="btn-close-new-message" data-role="button" data-theme="c" data-inline="true">Cancel</a>
+            <button id="post-message" data-inline="true">Post</button>
           </div>
         </div>
 
