@@ -26,19 +26,19 @@
                 
                 // Success Callback
                 function(){
-                  var html = "";
+                  var my_html = "";
                   while(my_books.hasNextEntity()) {
                     var current_book = my_books.getNextEntity();
 
-                    html += '<li>';
-                    html += '<h3>' + current_book.get('title') +'</h3>';
-                    html += '<p>'+ current_book.get('author') +'</p>';
-                    html += '</li>';
+                    my_html += '<li>';
+                    my_html += '<h3>' + current_book.get('title') +'</h3>';
+                    my_html += '<p>'+ current_book.get('author') +'</p>';
+                    my_html += '</li>';
                   }
-                  $("#messages-list").html(html);
+                  $("#messages-list").html(my_html);
                   $('#messages-list').listview('refresh');
                 },
-                                
+
                 // Failure Callback
                 function(){
                   $("#messages-list").html("<li>There was an error getting the messages!</li>");
