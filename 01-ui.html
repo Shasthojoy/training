@@ -9,21 +9,24 @@
     </head>
     <body>
 
-        <div data-role="page" data-theme="c" id="page-messages-list">
-          <div data-role="header" data-theme="b">
-            <h1>My Books</h1>
-            <a id="btn-compose" data-icon="plus" data-iconpos="right" data-inline="true" data-role="button" class="ui-btn-right">Compose</a>
-          </div>
-          <ul id="messages-list"  data-role="listview" data-inset="true" >
-            <li>
-              <h3>First Message</h3>
-              <p>author</p>
-            </li>
-            <li>
-              <h3>Second Message</h3>
-              <p>author</p>
-            </li>
-          </ul>
+        <div data-role="page" data-theme="c" id="page-books-list">
+            <div data-role="header" data-theme="b">
+                <h1>My Books</h1>
+                <a id="btn-compose" data-icon="plus" data-iconpos="right" data-inline="true" data-role="button" class="ui-btn-right">Add</a>
+            </div>
+
+            <div data-role="content">
+                <ul id="books-list" data-role="listview" data-inset="false">
+                    <li>
+                        <h3>First Title</h3>
+                        <p>First author</p>
+                    </li>
+                    <li>
+                        <h3>Second Title</h3>
+                        <p>Second author</p>
+                    </li>
+                </ul>
+            </div>
         </div>
         
     </body>

@@ -9,91 +9,98 @@
         <script src="http://raw.github.com/apigee/usergrid-javascript-sdk/master/usergrid.min.js"></script>
         <script type="text/javascript">
         
-          var apigee = new Usergrid.Client({
-              orgName:'YOUR APIGEE.COM USERNAME',
-              appName:'sandbox'
-          });
+            var apigee = new Usergrid.Client({
+                orgName:'YOUR APIGEE.COM USERNAME',
+                appName:'sandbox'
+            });
 
-          $(document).ready(function () {
+            // A Collection object that will be used to hold the list of books locally
+            var my_books = new Usergrid.Collection( { "client":apigee, "type":"books" } );
 
-            $('#post-message').bind('click', postMessage);
+
+            $(document).ready(function () {
             
-            refreshFeed();
-
-            function refreshFeed() {
-              //a new Collection object that will be used to hold the full feed list
-              var my_books = new Usergrid.Collection({ "client":apigee, "type":"books" });
-              //make sure messages are pulled back in order
-              my_books.fetch(
+                $('#create-button').bind('click', createBook);
+                refreshFeed();
                 
-                // Success Callback
-                function(){
-                  var html = "";
-                  while(my_books.hasNextEntity()) {
-                    var current_book = my_books.getNextEntity();
+                function refreshFeed() {
+                    
+                    my_books.fetch( // Actual network call
 
-                    html += '<li>';
-                    html += '<h3>' + current_book.get('title') +'</h3>';
-                    html += '<p>'+ current_book.get('author') +'</p>';
-                    html += '</li>';
-                  }
-                  $("#messages-list").html(html);
-                  $('#messages-list').listview('refresh');
-                },
-                
-                // Failure Callback
-                function(){
-                  $("#messages-list").html("<li>There was an error getting the messages!</li>");
+                        // Success Callback
+                        function () {
+                            $('#books-list').empty();
+                            
+                            while ( my_books.hasNextEntity() ) {
+                                var current_book = my_books.getNextEntity();
+
+                                // Output the book on the page
+                                $('#books-list').append('<li><h3>'+current_book.get('title')+'</h3><p>'+current_book.get('author')+'</p></li>');
+                            }
+                            
+                            // Re-apply jQuery Mobile styles
+                            $('#books-list').listview('refresh');
+                        },
+
+                        // Failure Callback
+                        function () { alert("read failed"); }
+                    );
                 }
-              );
-            }
 
-            function postMessage() {
+                function createBook() {
 
-              content = $("#content").val();
+                    new_book = { "title":$("#title-field").val(),
+                                "author":$("#author-field").val() };
 
-              options = { "type":"books",
-                          "title":content };
-
-              apigee.createEntity(options, function (error, response) {
-                  if (error) {
-                      alert('Could not post');
-                  } else {
-                    refreshFeed();
-                    history.back(); // or: window.location = "#page-messages-list";
-                  }
-              });
-            }
-          });
+                    my_books.addEntity(new_book, function (error, response) {
+                        if (error) {
+                            alert('write failed');
+                        } else {
+                            $("#title-field").val(""), $("#author-field").val("");
+                            refreshFeed();
+                            history.back();
+                        }
+                    });
+                }
+            });
         </script>
     </head>
     <body>
 
-        <div data-role="page" data-theme="c" id="page-messages-list">
-          <div data-role="header" data-theme="b">
-            <h1>My Books</h1>
-            <a href="#page-new-message" id="btn-compose" data-icon="plus" data-iconpos="right" data-inline="true" data-role="button" data-rel="dialog" data-transition="fade" class="ui-btn-right">Compose</a>
-          </div>
-          <ul id="messages-list"  data-role="listview" data-inset="true" >
-            <li>No messages here!</li>
-          </ul>
+        <div data-role="page" data-theme="c" id="page-books-list">
+            <div data-role="header" data-theme="b">
+                <h1>My Books</h1>
+                <a href="#page-new-book" id="btn-compose" data-icon="plus" data-iconpos="right" data-inline="true" data-role="button" data-rel="dialog" data-transition="fade" class="ui-btn-right">Add</a>
+            </div>
+            <div data-role="content">
+                <ul id="books-list"  data-role="listview" data-inset="false" >
+                    <li>
+                        <h3>First Title</h3>
+                        <p>First author</p>
+                    </li>
+                    <li>
+                        <h3>Second Title</h3>
+                        <p>Second author</p>
+                    </li>
+                </ul>
+            </div>
         </div>
 
 
-        <div data-role="page" data-theme="b" id="page-new-message">
-          
-          <div data-role="header" data-theme="b">
-            <h1>Add a New Book</h1>
-          </div>
-
-          <div data-role="content">
-            <form>
-              <label for="content">Title</label>
-              <textarea id="content" class="input-xlarge" rows="3" style="margin: 0px; width: 100%; height: 125px; "></textarea>
-            </form>
-            <a href="#page-messages-list" id="btn-close-new-message" data-role="button" data-theme="c" data-inline="true">Cancel</a>
-            <button id="post-message" data-inline="true">Post</button>
-          </div>
+        <div data-role="page" data-theme="b" id="page-new-book">
+            <div data-role="header" data-theme="b">
+                <h1>Add a New Book</h1>
+            </div>
+            <div data-role="content">
+                <form>
+                    <label for="title-field">Title</label>
+                    <textarea id="title-field"></textarea>
+                    <label for="author-field">Author</label>
+                    <textarea id="author-field"></textarea>
+                </form>    
+                <a href="#page-books-list" data-role="button" data-theme="c" data-inline="true">Cancel</a>
+                <button id="create-button" data-inline="true">Create</button>
+            </div>
         </div>
 
     </body>
