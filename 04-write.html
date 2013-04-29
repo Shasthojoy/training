@@ -19,50 +19,50 @@
 
 
             $(document).ready(function () {
-            
                 $('#create-button').bind('click', createBook);
-                refreshFeed();
                 
-                function refreshFeed() {
-                    
-                    my_books.fetch( // Actual network call
-
-                        // Success Callback
-                        function () {
-                            $('#books-list').empty();
-                            
-                            while ( my_books.hasNextEntity() ) {
-                                var current_book = my_books.getNextEntity();
-
-                                // Output the book on the page
-                                $('#books-list').append('<li><h3>'+current_book.get('title')+'</h3><p>'+current_book.get('author')+'</p></li>');
-                            }
-                            
-                            // Re-apply jQuery Mobile styles
-                            $('#books-list').listview('refresh');
-                        },
-
-                        // Failure Callback
-                        function () { alert("read failed"); }
-                    );
-                }
-
-                function createBook() {
-
-                    new_book = { "title":$("#title-field").val(),
-                                "author":$("#author-field").val() };
-
-                    my_books.addEntity(new_book, function (error, response) {
-                        if (error) {
-                            alert('write failed');
-                        } else {
-                            $("#title-field").val(""), $("#author-field").val("");
-                            refreshFeed();
-                            history.back();
-                        }
-                    });
-                }
+                loadBooks();
             });
+
+            function loadBooks () {
+                
+                my_books.fetch( // Actual network call
+
+                    // Success Callback
+                    function () {
+                        $('#books-list').empty();
+                        
+                        while ( my_books.hasNextEntity() ) {
+                            var current_book = my_books.getNextEntity();
+
+                            // Output the book on the page
+                            $('#books-list').append('<li><h3>'+current_book.get('title')+'</h3><p>'+current_book.get('author')+'</p></li>');
+                        }
+                        
+                        // Re-apply jQuery Mobile styles
+                        $('#books-list').listview('refresh');
+                    },
+
+                    // Failure Callback
+                    function () { alert("read failed"); }
+                );
+            }
+
+            function createBook() {
+
+                new_book = { "title":$("#title-field").val(),
+                            "author":$("#author-field").val() };
+
+                my_books.addEntity(new_book, function (error, response) {
+                    if (error) {
+                        alert('write failed');
+                    } else {
+                        $("#title-field").val(""), $("#author-field").val("");
+                        loadBooks();
+                        history.back();
+                    }
+                });
+            }
         </script>
     </head>
     <body>
