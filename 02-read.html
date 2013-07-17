@@ -17,31 +17,27 @@
             // A Collection object that will be used to hold the list of books locally
             var my_books = new Usergrid.Collection( { "client":apigee, "type":"books" } );
 
+            // Actual network call
+            my_books.fetch(
 
-            $(document).ready( function () {
-              
-                // Actual network call
-                my_books.fetch(
+                // Success Callback
+                function () {
+                    $('#books-list').empty();
+                    
+                    while ( my_books.hasNextEntity() ) {
+                        var current_book = my_books.getNextEntity();
 
-                    // Success Callback
-                    function () {
-                        $('#books-list').empty();
-                        
-                        while ( my_books.hasNextEntity() ) {
-                            var current_book = my_books.getNextEntity();
+                        // Output the book on the page
+                        $('#books-list').append('<li><h3>'+current_book.get('title')+'</h3><p>'+current_book.get('author')+'</p></li>');
+                    }
+                    
+                    // Re-apply jQuery Mobile styles
+                    $('#books-list').listview('refresh');
+                },
 
-                            // Output the book on the page
-                            $('#books-list').append('<li><h3>'+current_book.get('title')+'</h3><p>'+current_book.get('author')+'</p></li>');
-                        }
-                        
-                        // Re-apply jQuery Mobile styles
-                        $('#books-list').listview('refresh');
-                    },
-
-                    // Failure Callback
-                    function () { alert("read failed"); }
-                );
-            });
+                // Failure Callback
+                function () { alert("read failed"); }
+            );
 
         </script>
     </head>
