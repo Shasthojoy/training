@@ -18,11 +18,11 @@
             var my_books = new Usergrid.Collection( { "client":apigee, "type":"books" } );
 
 
-            $(document).on('pageinit', function(){
+            $('#page-new-book').on('pageinit', function(){
                 $('#create-button').bind('click', createBook);
-                
-                loadBooks();
             });
+
+            loadBooks();
 
             function loadBooks () {
                 
