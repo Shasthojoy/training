@@ -18,7 +18,7 @@
             var my_books = new Usergrid.Collection( { "client":apigee, "type":"books" } );
 
 
-            $('#page-new-book').on('pageinit', function(){
+            $(document).ready(function () {
                 $('#create-button').bind('click', createBook);
             });
 
