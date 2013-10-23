@@ -1,0 +1,714 @@
+TBooks
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Info.plist /Users/apigee/Desktop/Books/books/platforms/ios/Books/Books-Info.plist
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/device/Books.app/ResourceRules.plist
+cPhaseScriptExecution Copy\ www\ directory /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Script-304B58A110DAC018002A0835.sh
+cCpResource Books/config.xml build/device/Books.app/config.xml
+cCopyPNGFile /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/icon.png Books/Resources/icons/icon.png
+cCopyPNGFile /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/icon-72.png Books/Resources/icons/icon-72.png
+cCopyPNGFile /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/icon@2x.png Books/Resources/icons/icon@2x.png
+cCopyStringsFile /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/en.lproj/Localizable.strings Books/Resources/en.lproj/Localizable.strings
+cCopyStringsFile /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/es.lproj/Localizable.strings Books/Resources/es.lproj/Localizable.strings
+cCompileXIB /Users/apigee/Desktop/Books/books/platforms/ios/Books/Classes/MainViewController.xib
+cCopyStringsFile /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/de.lproj/Localizable.strings Books/Resources/de.lproj/Localizable.strings
+cCopyStringsFile /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/se.lproj/Localizable.strings Books/Resources/se.lproj/Localizable.strings
+cCopyPNGFile /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Default-Landscape@2x~ipad.png Books/Resources/splash/Default-Landscape@2x~ipad.png
+cCopyPNGFile /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Default-Portrait@2x~ipad.png Books/Resources/splash/Default-Portrait@2x~ipad.png
+cCopyPNGFile /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Default-Landscape~ipad.png Books/Resources/splash/Default-Landscape~ipad.png
+cCopyPNGFile /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Default-Portrait~ipad.png Books/Resources/splash/Default-Portrait~ipad.png
+cCopyPNGFile /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Default@2x~iphone.png Books/Resources/splash/Default@2x~iphone.png
+cCopyPNGFile /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Default~iphone.png Books/Resources/splash/Default~iphone.png
+cCopyPNGFile /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Default-568h@2x~iphone.png Books/Resources/splash/Default-568h@2x~iphone.png
+cCopyPNGFile /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/icon-72@2x.png Books/Resources/icons/icon-72@2x.png
+cProcessPCH /var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/Books-Prefix-dwoezbpzrojssheuwxspqkjmnxwp/Books-Prefix.pch.pch Books/Books-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Books.build/Debug-iphoneos/Books.build/Objects-normal/armv7/main.o /Users/apigee/Desktop/Books/books/platforms/ios/Books/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Books.build/Debug-iphoneos/Books.build/Objects-normal/armv7/AppDelegate.o /Users/apigee/Desktop/Books/books/platforms/ios/Books/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Books.build/Debug-iphoneos/Books.build/Objects-normal/armv7/MainViewController.o /Users/apigee/Desktop/Books/books/platforms/ios/Books/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Books normal armv7
+cGenerateDSYMFile /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app.dSYM /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Books
+cProcessProductPackaging /Users/apigee/Library/MobileDevice/Provisioning\ Profiles/CB104E14-5B7E-40DD-809C-E21612D1A469.mobileprovision /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/embedded.mobileprovision
+cTouch /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Books.xcent
+cCodeSign /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
+c00000000521BCCE10000000000000110
+t1377553633
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist
+c0000000052499F440000000000000094
+t1380556612
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist
+c0000000052499F440000000000000096
+t1380556612
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/SDKSettings.plist
+c0000000052499F44000000000000036B
+t1380556612
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000052499F45000000000000019E
+t1380556613
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c0000000052499F460000000000076920
+t1380556614
+s485664
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000052499F4900000000004D6390
+t1380556617
+s5071760
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c0000000052499F490000000000145160
+t1380556617
+s1331552
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c0000000052499F4D0000000000211130
+t1380556621
+s2167088
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/Books/Books-Info.plist
+c0000000052673B890000000000000746
+t1382497161
+s1862
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/Books/Books-Prefix.pch
+c0000000052673B0900000000000003BB
+t1382497033
+s955
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/Books/Classes/AppDelegate.m
+c0000000052673B0900000000000013A1
+t1382497033
+s5025
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/Books/Classes/MainViewController.m
+c0000000052673B090000000000001266
+t1382497033
+s4710
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/Books/Classes/MainViewController.xib
+c0000000052673B090000000000001759
+t1382497033
+s5977
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/de.lproj/Localizable.strings
+c0000000052673B0900000000000004BF
+t1382497033
+s1215
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/en.lproj/Localizable.strings
+c0000000052673B0900000000000004AA
+t1382497033
+s1194
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/es.lproj/Localizable.strings
+c0000000052673B0900000000000004B7
+t1382497033
+s1207
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/icons/icon-72.png
+c0000000052673B090000000000001350
+t1382497033
+s4944
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/icons/icon-72@2x.png
+c0000000052673B090000000000002DBA
+t1382497033
+s11706
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/icons/icon.png
+c0000000052673B090000000000000F3E
+t1382497033
+s3902
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/icons/icon@2x.png
+c0000000052673B090000000000001EBD
+t1382497033
+s7869
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/se.lproj/Localizable.strings
+c0000000052673B0900000000000004AB
+t1382497033
+s1195
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/splash/Default-568h@2x~iphone.png
+c0000000052673B0900000000000085B1
+t1382497033
+s34225
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/splash/Default-Landscape@2x~ipad.png
+c0000000052673B090000000000012DF4
+t1382497033
+s77300
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/splash/Default-Landscape~ipad.png
+c0000000052673B090000000000008877
+t1382497033
+s34935
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/splash/Default-Portrait@2x~ipad.png
+c0000000052673B090000000000012B02
+t1382497033
+s76546
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/splash/Default-Portrait~ipad.png
+c0000000052673B0900000000000085E6
+t1382497033
+s34278
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/splash/Default@2x~iphone.png
+c0000000052673B090000000000007323
+t1382497033
+s29475
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/splash/Default~iphone.png
+c0000000052673B09000000000000289A
+t1382497033
+s10394
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/Books/config.xml
+c0000000052673B8900000000000008BD
+t1382497161
+s2237
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/Books/main.m
+c0000000052673B090000000000000457
+t1382497033
+s1111
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Books.xcent
+t1382497167
+s420
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Objects-normal/armv7/AppDelegate.o
+t1382497167
+s77968
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Objects-normal/armv7/Books.LinkFileList
+c0000000052673B8E0000000000000180
+t1382497166
+s384
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Objects-normal/armv7/MainViewController.o
+t1382497167
+s53216
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Objects-normal/armv7/main.o
+t1382497167
+s3080
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Script-304B58A110DAC018002A0835.sh
+c0000000052673B8E000000000000002D
+t1382497166
+s45
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app
+t1382497167
+s816
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app.dSYM
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Books
+t1382497167
+s300184
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Default-568h@2x~iphone.png
+t1382497166
+s61990
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Default-Landscape@2x~ipad.png
+t1382497166
+s143186
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Default-Landscape~ipad.png
+t1382497166
+s65305
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Default-Portrait@2x~ipad.png
+t1382497166
+s136924
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Default-Portrait~ipad.png
+t1382497166
+s63460
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Default@2x~iphone.png
+t1382497166
+s55319
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Default~iphone.png
+t1382497166
+s20021
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Info.plist
+t1382497166
+s1349
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/MainViewController.nib
+t1382497166
+s1332
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/PkgInfo
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/ResourceRules.plist
+t1382497166
+s150
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/config.xml
+t1382497166
+s2237
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/de.lproj/Localizable.strings
+t1382497166
+s280
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/embedded.mobileprovision
+t1382497167
+s7690
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/en.lproj/Localizable.strings
+t1382497166
+s166
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/es.lproj/Localizable.strings
+t1382497166
+s334
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/icon-72.png
+t1382497166
+s8045
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/icon-72@2x.png
+t1382497166
+s17926
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/icon.png
+t1382497166
+s5977
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/icon@2x.png
+t1382497166
+s13012
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/se.lproj/Localizable.strings
+t1382497166
+s283
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/libCordova.a
+c0000000052673B8E00000000000E38F8
+t1382497166
+s932088
+
+N/Users/apigee/Library/MobileDevice/Provisioning Profiles/CB104E14-5B7E-40DD-809C-E21612D1A469.mobileprovision
+c00000000523EC3B80000000000001E0A
+t1379845048
+s7690
+
+N/var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/Books-Prefix-dwoezbpzrojssheuwxspqkjmnxwp/Books-Prefix.pch.pch
+t1382497039
+s5280604
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies39ed410e7317b841^849c430e7317b841^---0#1#1#--18"Check dependencies36"953381E1-D3BF-4A60-AF66-D74A289C284D-
+
+CCodeSign /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app
+s404189967.429747
+e404189967.701054
+r1
+xCodeSign
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"CodeSign build/device/Books.app31"CodeSign build/device/Books.apped2c6e0f7317b841^8880b30f7317b841^---0#0#1#-19%DVTDocumentLocation2@87"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/0000000000000000^1095"CodeSign build/device/Books.app    cd /Users/apigee/Desktop/Books/books/platforms/ios    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    Using code signing identity "iPhone Developer: Timothee Anglade (P8P68P3Y94)" and provisioning profile "iOS Team Provisioning Profile: *" (CB104E14-5B7E-40DD-809C-E21612D1A469)    codesign --force --sign 6E5B851AC02CB0FDB692531889AF2DF0BDC92778 --resource-rules=/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/ResourceRules.plist --entitlements /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Books.xcent /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app36"2174E5D8-B7EC-4D23-A48A-E9ED5A684FBD-
+bB10AB03C-66FC-472E-B598-C2B1DBF42308
+
+CCompileC build/Books.build/Debug-iphoneos/Books.build/Objects-normal/armv7/AppDelegate.o /Users/apigee/Desktop/Books/books/platforms/ios/Books/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s404189966.948259
+e404189967.124232
+r1
+xCompileC
+xbuild/Books.build/Debug-iphoneos/Books.build/Objects-normal/armv7/AppDelegate.o
+x/Users/apigee/Desktop/Books/books/platforms/ios/Books/Classes/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/apigee/Desktop/Books/books/platforms/ios/Books/Classes/AppDelegate.m
+d/Users/apigee/Desktop/Books/books/platforms/ios/Books/Classes/AppDelegate.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVViewController.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/Books/Classes/MainViewController.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/apigee/Desktop/Books/books/platforms/ios/Books/Classes/AppDelegate.m185"CompileC build/Books.build/Debug-iphoneos/Books.build/Objects-normal/armv7/AppDelegate.o Books/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler6dfff20e7317b841^abcd1f0f7317b841^---0#0#1#-19%DVTDocumentLocation2@91"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/Books/Classes/AppDelegate.m0000000000000000^3524"CompileC build/Books.build/Debug-iphoneos/Books.build/Objects-normal/armv7/AppDelegate.o Books/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apigee/Desktop/Books/books/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Books-generated-files.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Books-own-target-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Books-all-target-headers.hmap -iquote /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Books-project-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include -I/Users/apigee/Desktop/Books/books/platforms/ios/build/device/usr/local/lib/include -I/Users/apigee/Desktop/Books/books/platforms/ios/build/UninstalledProducts/include -I/Users/apigee/Desktop/Books/books/platforms/ios/build/device -I/Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/DerivedSources/armv7 -I/Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/DerivedSources -F/Users/apigee/Desktop/Books/books/platforms/ios/build/device -include /var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/Books-Prefix-dwoezbpzrojssheuwxspqkjmnxwp/Books-Prefix.pch -MMD -MT dependencies -MF /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Objects-normal/armv7/AppDelegate.dia -c /Users/apigee/Desktop/Books/books/platforms/ios/Books/Classes/AppDelegate.m -o /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Objects-normal/armv7/AppDelegate.o36"33AE4332-EE2A-40C1-AE69-0F1BF5496215-
+bB10AB03C-66FC-472E-B598-C2B1DBF42308
+
+CCompileC build/Books.build/Debug-iphoneos/Books.build/Objects-normal/armv7/MainViewController.o /Users/apigee/Desktop/Books/books/platforms/ios/Books/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s404189966.949482
+e404189967.110875
+r1
+xCompileC
+xbuild/Books.build/Debug-iphoneos/Books.build/Objects-normal/armv7/MainViewController.o
+x/Users/apigee/Desktop/Books/books/platforms/ios/Books/Classes/MainViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/apigee/Desktop/Books/books/platforms/ios/Books/Classes/MainViewController.m
+d/Users/apigee/Desktop/Books/books/platforms/ios/Books/Classes/MainViewController.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVViewController.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/apigee/Desktop/Books/books/platforms/ios/Books/Classes/MainViewController.m199"CompileC build/Books.build/Debug-iphoneos/Books.build/Objects-normal/armv7/MainViewController.o Books/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler0b44f30e7317b841^6f621c0f7317b841^---0#0#1#-19%DVTDocumentLocation2@98"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/Books/Classes/MainViewController.m0000000000000000^3566"CompileC build/Books.build/Debug-iphoneos/Books.build/Objects-normal/armv7/MainViewController.o Books/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apigee/Desktop/Books/books/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Books-generated-files.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Books-own-target-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Books-all-target-headers.hmap -iquote /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Books-project-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include -I/Users/apigee/Desktop/Books/books/platforms/ios/build/device/usr/local/lib/include -I/Users/apigee/Desktop/Books/books/platforms/ios/build/UninstalledProducts/include -I/Users/apigee/Desktop/Books/books/platforms/ios/build/device -I/Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/DerivedSources/armv7 -I/Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/DerivedSources -F/Users/apigee/Desktop/Books/books/platforms/ios/build/device -include /var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/Books-Prefix-dwoezbpzrojssheuwxspqkjmnxwp/Books-Prefix.pch -MMD -MT dependencies -MF /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Objects-normal/armv7/MainViewController.d --serialize-diagnostics /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Objects-normal/armv7/MainViewController.dia -c /Users/apigee/Desktop/Books/books/platforms/ios/Books/Classes/MainViewController.m -o /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Objects-normal/armv7/MainViewController.o36"B6F9C25F-1838-4443-8CE4-CE206897C37A-
+bB10AB03C-66FC-472E-B598-C2B1DBF42308
+
+CCompileC build/Books.build/Debug-iphoneos/Books.build/Objects-normal/armv7/main.o /Users/apigee/Desktop/Books/books/platforms/ios/Books/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s404189966.948198
+e404189967.038147
+r1
+xCompileC
+xbuild/Books.build/Debug-iphoneos/Books.build/Objects-normal/armv7/main.o
+x/Users/apigee/Desktop/Books/books/platforms/ios/Books/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/apigee/Desktop/Books/books/platforms/ios/Books/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/apigee/Desktop/Books/books/platforms/ios/Books/main.m163"CompileC build/Books.build/Debug-iphoneos/Books.build/Objects-normal/armv7/main.o Books/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilera20af30e7317b841^54c4090f7317b841^---0#0#1#-19%DVTDocumentLocation2@76"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/Books/main.m0000000000000000^3466"CompileC build/Books.build/Debug-iphoneos/Books.build/Objects-normal/armv7/main.o Books/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apigee/Desktop/Books/books/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Books-generated-files.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Books-own-target-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Books-all-target-headers.hmap -iquote /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Books-project-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include -I/Users/apigee/Desktop/Books/books/platforms/ios/build/device/usr/local/lib/include -I/Users/apigee/Desktop/Books/books/platforms/ios/build/UninstalledProducts/include -I/Users/apigee/Desktop/Books/books/platforms/ios/build/device -I/Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/DerivedSources/armv7 -I/Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/DerivedSources -F/Users/apigee/Desktop/Books/books/platforms/ios/build/device -include /var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/Books-Prefix-dwoezbpzrojssheuwxspqkjmnxwp/Books-Prefix.pch -MMD -MT dependencies -MF /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Objects-normal/armv7/main.dia -c /Users/apigee/Desktop/Books/books/platforms/ios/Books/main.m -o /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Objects-normal/armv7/main.o36"7C3287CF-B69F-40BE-B93D-B1A1A36A65C9-
+bB10AB03C-66FC-472E-B598-C2B1DBF42308
+
+CCompileXIB /Users/apigee/Desktop/Books/books/platforms/ios/Books/Classes/MainViewController.xib
+s404189966.378356
+e404189966.401533
+r1
+xCompileXIB
+x/Users/apigee/Desktop/Books/books/platforms/ios/Books/Classes/MainViewController.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compiling /Users/apigee/Desktop/Books/books/platforms/ios/Books/Classes/MainViewController.xib47"CompileXIB Books/Classes/MainViewController.xibe4f9600e7317b841^43cb660e7317b841^---0#0#1#-19%DVTDocumentLocation2@100"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/Books/Classes/MainViewController.xib0000000000000000^867"CompileXIB Books/Classes/MainViewController.xib    cd /Users/apigee/Desktop/Books/books/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 5.0 --output-format human-readable-text --compile /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/MainViewController.nib /Users/apigee/Desktop/Books/books/platforms/ios/Books/Classes/MainViewController.xib36"B9FE83CA-E1D4-4A16-ACA3-0E94E263E9FC-
+bB10AB03C-66FC-472E-B598-C2B1DBF42308
+
+CCopyPNGFile /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Default-568h@2x~iphone.png Books/Resources/splash/Default-568h@2x~iphone.png
+s404189966.713721
+e404189966.872358
+r1
+xCopyPNGFile
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Default-568h@2x~iphone.png
+xBooks/Resources/splash/Default-568h@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"CopyPNGFile build/device/Books.app/Default-568h@2x~iphone.png Books/Resources/splash/Default-568h@2x~iphone.png111"CopyPNGFile build/device/Books.app/Default-568h@2x~iphone.png Books/Resources/splash/Default-568h@2x~iphone.pnge1d1b60e7317b841^7157df0e7317b841^---0#0#1#-19%DVTDocumentLocation2@113"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/splash/Default-568h@2x~iphone.png0000000000000000^799"CopyPNGFile build/device/Books.app/Default-568h@2x~iphone.png Books/Resources/splash/Default-568h@2x~iphone.png    cd /Users/apigee/Desktop/Books/books/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/splash/Default-568h@2x~iphone.png /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Default-568h@2x~iphone.png36"F9D2A3F9-FCE8-4904-B937-DCCF05B618F6-
+bB10AB03C-66FC-472E-B598-C2B1DBF42308
+
+CCopyPNGFile /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Default-Landscape@2x~ipad.png Books/Resources/splash/Default-Landscape@2x~ipad.png
+s404189966.415531
+e404189966.917027
+r1
+xCopyPNGFile
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Default-Landscape@2x~ipad.png
+xBooks/Resources/splash/Default-Landscape@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"CopyPNGFile build/device/Books.app/Default-Landscape@2x~ipad.png Books/Resources/splash/Default-Landscape@2x~ipad.png117"CopyPNGFile build/device/Books.app/Default-Landscape@2x~ipad.png Books/Resources/splash/Default-Landscape@2x~ipad.png847e6a0e7317b841^a0c5ea0e7317b841^---0#0#1#-19%DVTDocumentLocation2@116"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/splash/Default-Landscape@2x~ipad.png0000000000000000^811"CopyPNGFile build/device/Books.app/Default-Landscape@2x~ipad.png Books/Resources/splash/Default-Landscape@2x~ipad.png    cd /Users/apigee/Desktop/Books/books/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/splash/Default-Landscape@2x~ipad.png /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Default-Landscape@2x~ipad.png36"EEB7F33E-E992-47E5-AFD2-7276ADB78558-
+bB10AB03C-66FC-472E-B598-C2B1DBF42308
+
+CCopyPNGFile /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Default-Landscape~ipad.png Books/Resources/splash/Default-Landscape~ipad.png
+s404189966.449951
+e404189966.634370
+r1
+xCopyPNGFile
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Default-Landscape~ipad.png
+xBooks/Resources/splash/Default-Landscape~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"CopyPNGFile build/device/Books.app/Default-Landscape~ipad.png Books/Resources/splash/Default-Landscape~ipad.png111"CopyPNGFile build/device/Books.app/Default-Landscape~ipad.png Books/Resources/splash/Default-Landscape~ipad.png9c4d730e7317b841^4566a20e7317b841^---0#0#1#-19%DVTDocumentLocation2@113"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/splash/Default-Landscape~ipad.png0000000000000000^799"CopyPNGFile build/device/Books.app/Default-Landscape~ipad.png Books/Resources/splash/Default-Landscape~ipad.png    cd /Users/apigee/Desktop/Books/books/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/splash/Default-Landscape~ipad.png /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Default-Landscape~ipad.png36"DB26BEB3-D334-431C-A3AD-E007415637BD-
+bB10AB03C-66FC-472E-B598-C2B1DBF42308
+
+CCopyPNGFile /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Default-Portrait@2x~ipad.png Books/Resources/splash/Default-Portrait@2x~ipad.png
+s404189966.449945
+e404189966.936656
+r1
+xCopyPNGFile
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Default-Portrait@2x~ipad.png
+xBooks/Resources/splash/Default-Portrait@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"CopyPNGFile build/device/Books.app/Default-Portrait@2x~ipad.png Books/Resources/splash/Default-Portrait@2x~ipad.png115"CopyPNGFile build/device/Books.app/Default-Portrait@2x~ipad.png Books/Resources/splash/Default-Portrait@2x~ipad.pngf54c730e7317b841^e2c8ef0e7317b841^---0#0#1#-19%DVTDocumentLocation2@115"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/splash/Default-Portrait@2x~ipad.png0000000000000000^807"CopyPNGFile build/device/Books.app/Default-Portrait@2x~ipad.png Books/Resources/splash/Default-Portrait@2x~ipad.png    cd /Users/apigee/Desktop/Books/books/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/splash/Default-Portrait@2x~ipad.png /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Default-Portrait@2x~ipad.png36"D8B00389-6536-44B6-A5D8-38DB20FB8F60-
+bB10AB03C-66FC-472E-B598-C2B1DBF42308
+
+CCopyPNGFile /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Default-Portrait~ipad.png Books/Resources/splash/Default-Portrait~ipad.png
+s404189966.452053
+e404189966.636297
+r1
+xCopyPNGFile
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Default-Portrait~ipad.png
+xBooks/Resources/splash/Default-Portrait~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"CopyPNGFile build/device/Books.app/Default-Portrait~ipad.png Books/Resources/splash/Default-Portrait~ipad.png109"CopyPNGFile build/device/Books.app/Default-Portrait~ipad.png Books/Resources/splash/Default-Portrait~ipad.png12d9730e7317b841^c0e8a20e7317b841^---0#0#1#-19%DVTDocumentLocation2@112"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/splash/Default-Portrait~ipad.png0000000000000000^795"CopyPNGFile build/device/Books.app/Default-Portrait~ipad.png Books/Resources/splash/Default-Portrait~ipad.png    cd /Users/apigee/Desktop/Books/books/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/splash/Default-Portrait~ipad.png /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Default-Portrait~ipad.png36"8687956A-175E-4873-88B2-A8BC0DADA610-
+bB10AB03C-66FC-472E-B598-C2B1DBF42308
+
+CCopyPNGFile /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Default@2x~iphone.png Books/Resources/splash/Default@2x~iphone.png
+s404189966.635740
+e404189966.788902
+r1
+xCopyPNGFile
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Default@2x~iphone.png
+xBooks/Resources/splash/Default@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"CopyPNGFile build/device/Books.app/Default@2x~iphone.png Books/Resources/splash/Default@2x~iphone.png101"CopyPNGFile build/device/Books.app/Default@2x~iphone.png Books/Resources/splash/Default@2x~iphone.pngf4dca20e7317b841^76fac90e7317b841^---0#0#1#-19%DVTDocumentLocation2@108"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/splash/Default@2x~iphone.png0000000000000000^779"CopyPNGFile build/device/Books.app/Default@2x~iphone.png Books/Resources/splash/Default@2x~iphone.png    cd /Users/apigee/Desktop/Books/books/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/splash/Default@2x~iphone.png /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Default@2x~iphone.png36"532C8AE3-0D07-4C1A-86B7-2E1FF86D3B97-
+bB10AB03C-66FC-472E-B598-C2B1DBF42308
+
+CCopyPNGFile /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Default~iphone.png Books/Resources/splash/Default~iphone.png
+s404189966.637510
+e404189966.712383
+r1
+xCopyPNGFile
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Default~iphone.png
+xBooks/Resources/splash/Default~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"CopyPNGFile build/device/Books.app/Default~iphone.png Books/Resources/splash/Default~iphone.png95"CopyPNGFile build/device/Books.app/Default~iphone.png Books/Resources/splash/Default~iphone.png664ea30e7317b841^f06db60e7317b841^---0#0#1#-19%DVTDocumentLocation2@105"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/splash/Default~iphone.png0000000000000000^767"CopyPNGFile build/device/Books.app/Default~iphone.png Books/Resources/splash/Default~iphone.png    cd /Users/apigee/Desktop/Books/books/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/splash/Default~iphone.png /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Default~iphone.png36"94C595C8-D2C3-4A36-A2EA-A9F2053DD418-
+bB10AB03C-66FC-472E-B598-C2B1DBF42308
+
+CCopyPNGFile /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/icon-72.png Books/Resources/icons/icon-72.png
+s404189966.362719
+e404189966.448054
+r1
+xCopyPNGFile
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/icon-72.png
+xBooks/Resources/icons/icon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"CopyPNGFile build/device/Books.app/icon-72.png Books/Resources/icons/icon-72.png80"CopyPNGFile build/device/Books.app/icon-72.png Books/Resources/icons/icon-72.png8cf25c0e7317b841^22de720e7317b841^---0#0#1#-19%DVTDocumentLocation2@97"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/icons/icon-72.png0000000000000000^737"CopyPNGFile build/device/Books.app/icon-72.png Books/Resources/icons/icon-72.png    cd /Users/apigee/Desktop/Books/books/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/icons/icon-72.png /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/icon-72.png36"3AA1A066-FCCD-4623-A91A-C29B7925B61F-
+bB10AB03C-66FC-472E-B598-C2B1DBF42308
+
+CCopyPNGFile /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/icon-72@2x.png Books/Resources/icons/icon-72@2x.png
+s404189966.791341
+e404189966.848072
+r1
+xCopyPNGFile
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/icon-72@2x.png
+xBooks/Resources/icons/icon-72@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"CopyPNGFile build/device/Books.app/icon-72@2x.png Books/Resources/icons/icon-72@2x.png86"CopyPNGFile build/device/Books.app/icon-72@2x.png Books/Resources/icons/icon-72@2x.pngd5b1ca0e7317b841^f52fd90e7317b841^---0#0#1#-19%DVTDocumentLocation2@100"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/icons/icon-72@2x.png0000000000000000^749"CopyPNGFile build/device/Books.app/icon-72@2x.png Books/Resources/icons/icon-72@2x.png    cd /Users/apigee/Desktop/Books/books/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/icons/icon-72@2x.png /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/icon-72@2x.png36"767EBC5B-23AD-40AF-B13F-EEC443D526A7-
+bB10AB03C-66FC-472E-B598-C2B1DBF42308
+
+CCopyPNGFile /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/icon.png Books/Resources/icons/icon.png
+s404189966.362545
+e404189966.449309
+r1
+xCopyPNGFile
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/icon.png
+xBooks/Resources/icons/icon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"CopyPNGFile build/device/Books.app/icon.png Books/Resources/icons/icon.png74"CopyPNGFile build/device/Books.app/icon.png Books/Resources/icons/icon.pngfaec5c0e7317b841^bc08730e7317b841^---0#0#1#-19%DVTDocumentLocation2@94"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/icons/icon.png0000000000000000^725"CopyPNGFile build/device/Books.app/icon.png Books/Resources/icons/icon.png    cd /Users/apigee/Desktop/Books/books/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/icons/icon.png /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/icon.png36"364DFBA7-4C9C-4D43-92A9-A283D18F81ED-
+bB10AB03C-66FC-472E-B598-C2B1DBF42308
+
+CCopyPNGFile /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/icon@2x.png Books/Resources/icons/icon@2x.png
+s404189966.362875
+e404189966.450751
+r1
+xCopyPNGFile
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/icon@2x.png
+xBooks/Resources/icons/icon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"CopyPNGFile build/device/Books.app/icon@2x.png Books/Resources/icons/icon@2x.png80"CopyPNGFile build/device/Books.app/icon@2x.png Books/Resources/icons/icon@2x.png1efc5c0e7317b841^5665730e7317b841^---0#0#1#-19%DVTDocumentLocation2@97"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/icons/icon@2x.png0000000000000000^737"CopyPNGFile build/device/Books.app/icon@2x.png Books/Resources/icons/icon@2x.png    cd /Users/apigee/Desktop/Books/books/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/icons/icon@2x.png /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/icon@2x.png36"E6527B57-A79E-4E9E-A29C-556233BED0DC-
+bB10AB03C-66FC-472E-B598-C2B1DBF42308
+
+CCopyStringsFile /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/de.lproj/Localizable.strings Books/Resources/de.lproj/Localizable.strings
+s404189966.403228
+e404189966.409287
+r1
+xCopyStringsFile
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/de.lproj/Localizable.strings
+xBooks/Resources/de.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy Books/Resources/de.lproj/Localizable.strings112"CopyStringsFile build/device/Books.app/de.lproj/Localizable.strings Books/Resources/de.lproj/Localizable.strings9b59670e7317b841^10c9680e7317b841^---0#0#1#-19%DVTDocumentLocation2@108"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/de.lproj/Localizable.strings0000000000000000^711"CopyStringsFile build/device/Books.app/de.lproj/Localizable.strings Books/Resources/de.lproj/Localizable.strings    cd /Users/apigee/Desktop/Books/books/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/de.lproj -- Books/Resources/de.lproj/Localizable.strings36"A4CD6162-EB30-4B43-BFB5-FE087ECAB57C-
+bB10AB03C-66FC-472E-B598-C2B1DBF42308
+
+CCopyStringsFile /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/en.lproj/Localizable.strings Books/Resources/en.lproj/Localizable.strings
+s404189966.366395
+e404189966.370319
+r1
+xCopyStringsFile
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/en.lproj/Localizable.strings
+xBooks/Resources/en.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy Books/Resources/en.lproj/Localizable.strings112"CopyStringsFile build/device/Books.app/en.lproj/Localizable.strings Books/Resources/en.lproj/Localizable.strings9aea5d0e7317b841^afcd5e0e7317b841^---0#0#1#-19%DVTDocumentLocation2@108"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/en.lproj/Localizable.strings0000000000000000^711"CopyStringsFile build/device/Books.app/en.lproj/Localizable.strings Books/Resources/en.lproj/Localizable.strings    cd /Users/apigee/Desktop/Books/books/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/en.lproj -- Books/Resources/en.lproj/Localizable.strings36"D294A6A4-DAF8-407F-A4F2-6593C145E441-
+bB10AB03C-66FC-472E-B598-C2B1DBF42308
+
+CCopyStringsFile /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/es.lproj/Localizable.strings Books/Resources/es.lproj/Localizable.strings
+s404189966.373522
+e404189966.377023
+r1
+xCopyStringsFile
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/es.lproj/Localizable.strings
+xBooks/Resources/es.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy Books/Resources/es.lproj/Localizable.strings112"CopyStringsFile build/device/Books.app/es.lproj/Localizable.strings Books/Resources/es.lproj/Localizable.strings7fc05f0e7317b841^1686600e7317b841^---0#0#1#-19%DVTDocumentLocation2@108"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/es.lproj/Localizable.strings0000000000000000^711"CopyStringsFile build/device/Books.app/es.lproj/Localizable.strings Books/Resources/es.lproj/Localizable.strings    cd /Users/apigee/Desktop/Books/books/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/es.lproj -- Books/Resources/es.lproj/Localizable.strings36"F9F957CC-3473-4AFB-85DE-6191D1785428-
+bB10AB03C-66FC-472E-B598-C2B1DBF42308
+
+CCopyStringsFile /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/se.lproj/Localizable.strings Books/Resources/se.lproj/Localizable.strings
+s404189966.410634
+e404189966.414172
+r1
+xCopyStringsFile
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/se.lproj/Localizable.strings
+xBooks/Resources/se.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy Books/Resources/se.lproj/Localizable.strings112"CopyStringsFile build/device/Books.app/se.lproj/Localizable.strings Books/Resources/se.lproj/Localizable.strings0b46690e7317b841^cc096a0e7317b841^---0#0#1#-19%DVTDocumentLocation2@108"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/Books/Resources/se.lproj/Localizable.strings0000000000000000^711"CopyStringsFile build/device/Books.app/se.lproj/Localizable.strings Books/Resources/se.lproj/Localizable.strings    cd /Users/apigee/Desktop/Books/books/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/se.lproj -- Books/Resources/se.lproj/Localizable.strings36"AF4EF7C4-9C12-42C6-8E5C-D0732A05853C-
+bB10AB03C-66FC-472E-B598-C2B1DBF42308
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/device/Books.app/ResourceRules.plist
+s404189966.279458
+e404189966.282069
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist
+xbuild/device/Books.app/ResourceRules.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy build/device/Books.app/ResourceRules.plist175"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/device/Books.app/ResourceRules.pliste09e470e7317b841^f035480e7317b841^---0#0#1#-19%DVTDocumentLocation2@106"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/ResourceRules.plist0038a427dcffdf42^861"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/device/Books.app/ResourceRules.plist    cd /Users/apigee/Desktop/Books/books/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app36"04B23B67-9C77-4BAF-891E-74587882A8F9-
+bB10AB03C-66FC-472E-B598-C2B1DBF42308
+
+CCpResource Books/config.xml build/device/Books.app/config.xml
+s404189966.362511
+e404189966.365118
+r1
+xCpResource
+xBooks/config.xml
+xbuild/device/Books.app/config.xml
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Copy build/device/Books.app/config.xml61"CpResource Books/config.xml build/device/Books.app/config.xml96e85c0e7317b841^cc7a5d0e7317b841^---0#0#1#-19%DVTDocumentLocation2@97"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/config.xml0038a427dcffdf42^690"CpResource Books/config.xml build/device/Books.app/config.xml    cd /Users/apigee/Desktop/Books/books/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/Books/config.xml /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app36"0E5F2E7E-AD1A-46AA-88EA-E041481FB370-
+bB10AB03C-66FC-472E-B598-C2B1DBF42308
+
+CGenerateDSYMFile /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app.dSYM /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Books
+s404189967.327078
+e404189967.378269
+r1
+xGenerateDSYMFile
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app.dSYM
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Books
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Generate /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app.dSYM73"GenerateDSYMFile build/device/Books.app.dSYM build/device/Books.app/Books9ce0530f7317b841^12d8600f7317b841^---0#0#1#-19%DVTDocumentLocation2@91"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app.dSYM0038a427dcffdf42^710"GenerateDSYMFile build/device/Books.app.dSYM build/device/Books.app/Books    cd /Users/apigee/Desktop/Books/books/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Books -o /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app.dSYM36"6258B355-A41E-442D-9870-99D14273D568-
+bB10AB03C-66FC-472E-B598-C2B1DBF42308
+
+CLd /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Books normal armv7
+s404189967.133185
+e404189967.317881
+r1
+xLd
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Books
+xnormal
+xarmv7
+d/Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Objects-normal/armv7/Books.LinkFileList
+d/Users/apigee/Desktop/Books/books/platforms/ios/build/device/libCordova.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/crt1.3.1.o
+d/Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Objects-normal/armv7/main.o
+d/Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Objects-normal/armv7/AppDelegate.o
+d/Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Objects-normal/armv7/MainViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphoneos.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Link /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Books44"Ld build/device/Books.app/Books normal armv79f3e220f7317b841^a261510f7317b841^---0#0#1#--1673"Ld build/device/Books.app/Books normal armv7    cd /Users/apigee/Desktop/Books/books/platforms/ios    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/apigee/Desktop/Books/books/platforms/ios/build/device -F/Users/apigee/Desktop/Books/books/platforms/ios/build/device -filelist /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Objects-normal/armv7/Books.LinkFileList -dead_strip -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/apigee/Desktop/Books/books/platforms/ios/build/device/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=5.0 -framework AssetsLibrary /Users/apigee/Desktop/Books/books/platforms/ios/build/device/libCordova.a -framework CoreGraphics -framework MobileCoreServices -framework CoreLocation -Xlinker -dependency_info -Xlinker /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Objects-normal/armv7/Books_dependency_info.dat -o /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Books36"827B025E-FF65-4EB3-9EE0-870ED4E20C02-
+bB10AB03C-66FC-472E-B598-C2B1DBF42308
+
+CPhaseScriptExecution Copy\ www\ directory /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Script-304B58A110DAC018002A0835.sh
+s404189966.291456
+e404189966.354377
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.035s
+ouser	0m0.013s
+osys	0m0.016s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'121"PhaseScriptExecution Copy\ www\ directory build/Books.build/Debug-iphoneos/Books.build/Script-304B58A110DAC018002A0835.sh205e4b0e7317b841^98bf5a0e7317b841^-42"real	0m0.035suser	0m0.013ssys	0m0.016s3(21%IDEActivityLogMessage2@14"real	0m0.035s-404189966#1#14#-0#-----2@14"user	0m0.013s-404189966#15#14#-0#-----2@13"sys	0m0.016s-404189966#29#13#-0#-----0#0#1#--21825"PhaseScriptExecution Copy\ www\ directory build/Books.build/Debug-iphoneos/Books.build/Script-304B58A110DAC018002A0835.sh    cd /Users/apigee/Desktop/Books/books/platforms/ios    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER apigee    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv ALWAYS_USE_SEPARATE_HEADERMAPS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS armv7    setenv ARCHS_STANDARD "armv7 armv7s"    setenv ARCHS_STANDARD_32_64_BIT "armv7 armv7s"    setenv ARCHS_STANDARD_32_BIT "armv7 armv7s"    setenv ARCHS_STANDARD_64_BIT arm64    setenv ARCHS_STANDARD_INCLUDING_64_BIT "armv7 armv7s arm64"    setenv ARCHS_UNIVERSAL_IPHONE_OS "armv7 armv7s"    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/apigee/Desktop/Books/books/platforms/ios/build    setenv BUILD_ROOT /Users/apigee/Desktop/Books/books/platforms/ios/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/apigee/Desktop/Books/books/platforms/ios/build/device    setenv CACHE_ROOT /var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode    setenv CCHROOT /var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC YES    setenv CLANG_WARN_BOOL_CONVERSION YES    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_EMPTY_BODY YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app    setenv CODE_SIGNING_ALLOWED YES    setenv CODE_SIGNING_REQUIRED YES    setenv CODE_SIGN_CONTEXT_CLASS XCiPhoneOSCodeSignContext    setenv CODE_SIGN_IDENTITY "iPhone Developer"    setenv COLOR_DIAGNOSTICS NO    setenv COMBINE_HIDPI_IMAGES NO    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/apigee/Desktop/Books/books/platforms/ios/build/device    setenv CONFIGURATION_TEMP_DIR /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos    setenv CONTENTS_FOLDER_PATH Books.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CORDOVALIB /Users/apigee/Documents/CordovaLib    setenv CP /bin/cp    setenv CREATE_INFOPLIST_SECTION_IN_BINARY NO    setenv CURRENT_ARCH armv7    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEFAULT_KEXT_INSTALL_PATH /System/Library/Extensions    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH Books.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/Books.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME Books.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/apigee/Desktop/Books/books/platforms/ios/build/device    setenv EFFECTIVE_PLATFORM_NAME -iphoneos    setenv EMBEDDED_PROFILE_NAME embedded.mobileprovision    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENTITLEMENTS_ALLOWED YES    setenv ENTITLEMENTS_REQUIRED YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH Books.app/Executables    setenv EXECUTABLE_FOLDER_PATH Books.app    setenv EXECUTABLE_NAME Books    setenv EXECUTABLE_PATH Books.app/Books    setenv FILE_LIST /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH Books.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "/Users/apigee/Desktop/Books/books/platforms/ios/build/device "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME Books.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER Books/Books-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNDECLARED_SELECTOR YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_FUNCTION YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include \"/Users/apigee/Desktop/Books/books/platforms/ios/build/device/usr/local/lib/include\" \"/Users/apigee/Desktop/Books/books/platforms/ios/build/UninstalledProducts/include\" \"/Users/apigee/Desktop/Books/books/platforms/ios/build/device\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Books/Books-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH Books.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH Books.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/Books.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER apigee    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/Books.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH Books.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_DEPENDENCY_INFO_FILE /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Objects-normal/armv7/Books_dependency_info.dat    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Books-LinkMap-normal-armv7.txt    setenv LD_NO_PIE NO    setenv LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER YES    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_KEXT_INSTALL_PATH /Library/Extensions    setenv LIBRARY_SEARCH_PATHS "/Users/apigee/Desktop/Books/books/platforms/ios/build/device "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_armv7 /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Objects-normal/armv7/Books.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH Books.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12F45    setenv MAC_OS_X_VERSION_ACTUAL 1085    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0805    setenv MODULE_CACHE_DIR /var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/ModuleCache    setenv NATIVE_ARCH armv7    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Objects-normal    setenv OBJROOT /Users/apigee/Desktop/Books/books/platforms/ios/build    setenv ONLY_ACTIVE_ARCH YES    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load \"/Users/apigee/Desktop/Books/books/platforms/ios/build/device/libCordova.a\" -ObjC"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH Books.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/PkgInfo    setenv PKGINFO_PATH Books.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform    setenv PLATFORM_NAME iphoneos    setenv PLATFORM_PREFERRED_ARCH arm64    setenv PLATFORM_PRODUCT_BUILD_VERSION 11A465    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH Books.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH Books.app/PrivateHeaders    setenv PRODUCT_NAME Books    setenv PRODUCT_SETTINGS_PATH /Users/apigee/Desktop/Books/books/platforms/ios/Books/Books-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT Books    setenv PROJECT_DERIVED_FILE_DIR /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/DerivedSources    setenv PROJECT_DIR /Users/apigee/Desktop/Books/books/platforms/ios    setenv PROJECT_FILE_PATH /Users/apigee/Desktop/Books/books/platforms/ios/Books.xcodeproj    setenv PROJECT_NAME Books    setenv PROJECT_TEMP_DIR /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build    setenv PROJECT_TEMP_ROOT /Users/apigee/Desktop/Books/books/platforms/ios/build    setenv PROVISIONING_PROFILE_REQUIRED YES    setenv PUBLIC_HEADERS_FOLDER_PATH Books.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv RESOURCE_RULES_REQUIRED YES    setenv REZ_COLLECTOR_DIR /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "/Users/apigee/Desktop/Books/books/platforms/ios/build/device "    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH Books.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk    setenv SDK_NAME iphoneos7.0    setenv SDK_PRODUCT_BUILD_VERSION 11A465    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/apigee/Desktop/Books/books/platforms/ios/build/device/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH Books.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH Books.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/apigee/Desktop/Books/books/platforms/ios    setenv SRCROOT /Users/apigee/Desktop/Books/books/platforms/ios    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES 1,2    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/apigee/Desktop/Books/books/platforms/ios/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_KEXT_INSTALL_PATH /System/Library/Extensions    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME Books    setenv TARGET_BUILD_DIR /Users/apigee/Desktop/Books/books/platforms/ios/build/device    setenv TARGET_NAME Books    setenv TARGET_TEMP_DIR /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build    setenv TEMP_DIR /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build    setenv TEMP_FILES_DIR /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build    setenv TEMP_FILE_DIR /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build    setenv TEMP_ROOT /Users/apigee/Desktop/Books/books/platforms/ios/build    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH Books.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER apigee    setenv USER_APPS_DIR /Users/apigee/Applications    setenv USER_LIBRARY_DIR /Users/apigee/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "armv7 armv7s"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH Books.app/version.plist    setenv VERSION_INFO_BUILDER apigee    setenv VERSION_INFO_FILE Books_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:Books  PROJECT:Books-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME Books.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 5A1413    setenv XCODE_VERSION_ACTUAL 0500    setenv XCODE_VERSION_MAJOR 0500    setenv XCODE_VERSION_MINOR 0500    setenv XPCSERVICES_FOLDER_PATH Books.app/XPCServices    setenv YACC yacc    setenv arch armv7    setenv variant normal    /bin/sh -c /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Script-304B58A110DAC018002A0835.sh36"C635C9DF-112C-4C3F-8FC6-A1D69D297346-
+bB10AB03C-66FC-472E-B598-C2B1DBF42308
+
+CProcessInfoPlistFile /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Info.plist /Users/apigee/Desktop/Books/books/platforms/ios/Books/Books-Info.plist
+s404189966.266336
+e404189966.271008
+r1
+xProcessInfoPlistFile
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Info.plist
+x/Users/apigee/Desktop/Books/books/platforms/ios/Books/Books-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Process /Users/apigee/Desktop/Books/books/platforms/ios/Books/Books-Info.plist77"ProcessInfoPlistFile build/device/Books.app/Info.plist Books/Books-Info.pliste44b440e7317b841^1c61450e7317b841^---0#0#1#-19%DVTDocumentLocation2@86"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/Books/Books-Info.plist0000000000000000^899"ProcessInfoPlistFile build/device/Books.app/Info.plist Books/Books-Info.plist    cd /Users/apigee/Desktop/Books/books/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-infoPlistUtility /Users/apigee/Desktop/Books/books/platforms/ios/Books/Books-Info.plist -genpkginfo /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/ResourceRules.plist -o /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/Info.plist36"9DF8A877-2284-4FC3-850B-9DF82270FA3C-
+bB10AB03C-66FC-472E-B598-C2B1DBF42308
+
+CProcessPCH /var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/Books-Prefix-dwoezbpzrojssheuwxspqkjmnxwp/Books-Prefix.pch.pch Books/Books-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Books.xcent
+s404189967.416578
+e404189967.420891
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Books.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection201"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist build/Books.build/Debug-iphoneos/Books.build/Books.xcent201"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist build/Books.build/Debug-iphoneos/Books.build/Books.xcent86cb6a0f7317b841^16c16b0f7317b841^---0#0#1#-19%DVTDocumentLocation2@120"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Books.xcent0038a427dcffdf42^873"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist build/Books.build/Debug-iphoneos/Books.build/Books.xcent    cd /Users/apigee/Desktop/Books/books/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/apigee/Desktop/Books/books/platforms/ios/build/Books.build/Debug-iphoneos/Books.build/Books.xcent36"518080AA-152C-4210-9F55-5E124721039B-
+bB10AB03C-66FC-472E-B598-C2B1DBF42308
+
+CProcessProductPackaging /Users/apigee/Library/MobileDevice/Provisioning\ Profiles/CB104E14-5B7E-40DD-809C-E21612D1A469.mobileprovision /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/embedded.mobileprovision
+s404189967.386615
+e404189967.389457
+r1
+xProcessProductPackaging
+x/Users/apigee/Library/MobileDevice/Provisioning Profiles/CB104E14-5B7E-40DD-809C-E21612D1A469.mobileprovision
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection182"ProcessProductPackaging /Users/apigee/Library/MobileDevice/Provisioning\ Profiles/CB104E14-5B7E-40DD-809C-E21612D1A469.mobileprovision build/device/Books.app/embedded.mobileprovision182"ProcessProductPackaging /Users/apigee/Library/MobileDevice/Provisioning\ Profiles/CB104E14-5B7E-40DD-809C-E21612D1A469.mobileprovision build/device/Books.app/embedded.mobileprovisioncb10630f7317b841^0bb4630f7317b841^---0#0#1#-19%DVTDocumentLocation2@111"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/embedded.mobileprovision0038a427dcffdf42^809"ProcessProductPackaging /Users/apigee/Library/MobileDevice/Provisioning\ Profiles/CB104E14-5B7E-40DD-809C-E21612D1A469.mobileprovision build/device/Books.app/embedded.mobileprovision    cd /Users/apigee/Desktop/Books/books/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-productPackagingUtility /Users/apigee/Library/MobileDevice/Provisioning\ Profiles/CB104E14-5B7E-40DD-809C-E21612D1A469.mobileprovision -o /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app/embedded.mobileprovision36"32FDA128-40F5-4F49-BB1A-C5656E6F317B-
+bB10AB03C-66FC-472E-B598-C2B1DBF42308
+
+CTouch /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app
+s404189967.399322
+e404189967.407628
+r1
+xTouch
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Touch /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app28"Touch build/device/Books.app3f58660f7317b841^b45a680f7317b841^---0#0#1#--502"Touch build/device/Books.app    cd /Users/apigee/Desktop/Books/books/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /usr/bin/touch -c /Users/apigee/Desktop/Books/books/platforms/ios/build/device/Books.app36"679D0D51-A970-4A08-B019-2FEE35736808-
+bB10AB03C-66FC-472E-B598-C2B1DBF42308
+

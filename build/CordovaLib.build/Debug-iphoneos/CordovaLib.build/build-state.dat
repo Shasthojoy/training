@@ -1,0 +1,1172 @@
+TCordovaLib
+v6
+r1
+cCheck dependencies
+cCpHeader Classes/NSDictionary+Extensions.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h
+cCpHeader Classes/CDVInvokedUrlCommand.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+cCpHeader Classes/NSData+Base64.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/NSData+Base64.h
+cCpHeader Classes/CDVPluginResult.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+cCpHeader Classes/CDVPlugin.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+cCpHeader Classes/CDVDebug.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVDebug.h
+cCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+cCpHeader Classes/CDVWhitelist.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
+cCpHeader Classes/CDVURLProtocol.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h
+cCpHeader Classes/CDVViewController.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVViewController.h
+cCpHeader Classes/CDVCommandDelegate.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+cCpHeader Classes/CDV.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDV.h
+cCpHeader Classes/CDVAvailability.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+cCpHeader Classes/CDVLocalStorage.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h
+cCpHeader Classes/UIDevice+Extensions.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h
+cCpHeader Classes/NSArray+Comparisons.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h
+cCpHeader Classes/CDVCommandQueue.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
+cCpHeader Classes/CDVCommandDelegateImpl.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
+cCpHeader Classes/CDVShared.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVShared.h
+cCpHeader Classes/CDVScreenOrientationDelegate.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
+cCpHeader Classes/CDVConfigParser.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVConfigParser.h
+cCpHeader Classes/CDVJSON.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVJSON.h
+cCpHeader Classes/CDVWebViewDelegate.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h
+cCpHeader Classes/CDVUserAgentUtil.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h
+cCpHeader Classes/CDVTimer.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVTimer.h
+cProcessPCH /var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-exqzaarczapfxsgkytvlqtcbeclr/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVJSON.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVTimer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVShared.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/apigee/Desktop/Books/books/platforms/ios/build/device/libCordova.a normal armv7
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
+c00000000521BCCE10000000000000110
+t1377553633
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/SDKSettings.plist
+c0000000052499F44000000000000036B
+t1380556612
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000052499F45000000000000019E
+t1380556613
+s414
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDV.h
+c0000000052673B090000000000000516
+t1382497033
+s1302
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+c0000000052673B090000000000000C83
+t1382497033
+s3203
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+c0000000052673B0900000000000008BA
+t1382497033
+s2234
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+c0000000052673B090000000000000473
+t1382497033
+s1139
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
+c0000000052673B09000000000000126E
+t1382497033
+s4718
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+c0000000052673B090000000000000501
+t1382497033
+s1281
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
+c0000000052673B09000000000000158B
+t1382497033
+s5515
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
+c0000000052673B0900000000000004CB
+t1382497033
+s1227
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
+c0000000052673B090000000000000EB2
+t1382497033
+s3762
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVDebug.h
+c0000000052673B090000000000000401
+t1382497033
+s1025
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+c0000000052673B0900000000000007E6
+t1382497033
+s2022
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
+c0000000052673B090000000000000DDE
+t1382497033
+s3550
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVJSON.h
+c0000000052673B0900000000000003DA
+t1382497033
+s986
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVJSON.m
+c0000000052673B09000000000000098E
+t1382497033
+s2446
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+c0000000052673B0900000000000006CF
+t1382497033
+s1743
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
+c0000000052673B090000000000004C7E
+t1382497033
+s19582
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+c0000000052673B090000000000000892
+t1382497033
+s2194
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPlugin.m
+c0000000052673B0900000000000016AE
+t1382497033
+s5806
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+c0000000052673B090000000000000C13
+t1382497033
+s3091
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
+c0000000052673B090000000000001B29
+t1382497033
+s6953
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+c0000000052673B090000000000000408
+t1382497033
+s1032
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVShared.h
+c0000000052673B0900000000000003E6
+t1382497033
+s998
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVShared.m
+c0000000052673B0900000000000006B6
+t1382497033
+s1718
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVTimer.h
+c0000000052673B09000000000000038D
+t1382497033
+s909
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVTimer.m
+c0000000052673B090000000000000AA2
+t1382497033
+s2722
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+c0000000052673B09000000000000041C
+t1382497033
+s1052
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
+c0000000052673B090000000000002514
+t1382497033
+s9492
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
+c0000000052673B090000000000000421
+t1382497033
+s1057
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
+c0000000052673B0900000000000012A2
+t1382497033
+s4770
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVViewController.h
+c0000000052673B090000000000000ACC
+t1382497033
+s2764
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVViewController.m
+c0000000052673B090000000000009F3C
+t1382497033
+s40764
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
+c0000000052673B0900000000000005A2
+t1382497033
+s1442
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
+c0000000052673B0900000000000037C6
+t1382497033
+s14278
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+c0000000052673B0900000000000004B4
+t1382497033
+s1204
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
+c0000000052673B0900000000000027D3
+t1382497033
+s10195
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+c0000000052673B090000000000000392
+t1382497033
+s914
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
+c0000000052673B0900000000000004D8
+t1382497033
+s1240
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+c0000000052673B09000000000000037D
+t1382497033
+s893
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSData+Base64.m
+c0000000052673B0900000000000022CC
+t1382497033
+s8908
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+c0000000052673B0900000000000005DA
+t1382497033
+s1498
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
+c0000000052673B090000000000001059
+t1382497033
+s4185
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+c0000000052673B0900000000000003A0
+t1382497033
+s928
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
+c0000000052673B090000000000000584
+t1382497033
+s1412
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+c0000000052673B090000000000000476
+t1382497033
+s1142
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
+c0000000052673B090000000000000620
+t1382497033
+s1568
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/CordovaLib_Prefix.pch
+c0000000052673B090000000000000346
+t1382497033
+s838
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o
+t1382497166
+s63816
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.o
+t1382497165
+s60372
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.o
+t1382497165
+s29312
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.o
+t1382497165
+s18636
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.o
+t1382497165
+s11104
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.o
+t1382497165
+s112408
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.o
+t1382497165
+s59032
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.o
+t1382497165
+s37016
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.o
+t1382497166
+s9384
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.o
+t1382497166
+s23120
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.o
+t1382497165
+s72788
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.o
+t1382497166
+s54320
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.o
+t1382497166
+s201388
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.o
+t1382497166
+s74788
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.o
+t1382497165
+s44668
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/Cordova.LinkFileList
+c0000000052673B8C0000000000000C03
+t1382497164
+s3075
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.o
+t1382497165
+s7536
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.o
+t1382497165
+s10560
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.o
+t1382497165
+s17468
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.o
+t1382497165
+s6972
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.o
+t1382497165
+s9724
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDV.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVConfigParser.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVDebug.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVJSON.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVShared.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVTimer.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVViewController.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/NSData+Base64.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/device/libCordova.a
+t2
+s0
+
+N/var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-exqzaarczapfxsgkytvlqtcbeclr/CordovaLib_Prefix.pch.pch
+t1382497037
+s3145776
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies062ccd0c7317b841^9d13eb0c7317b841^---0#1#1#--18"Check dependencies36"5715FF93-762C-4B26-A5C4-F8CF77039907-
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s404189965.764180
+e404189966.050168
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o
+x/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m211"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o Classes/CDVCommandDelegateImpl.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler63d2c30d7317b841^60000d0e7317b841^---0#0#1#-19%DVTDocumentLocation2@107"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m0000000000000000^3666"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o Classes/CDVCommandDelegateImpl.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/apigee/Desktop/Books/books/platforms/ios/build/device -DDEBUG -include /var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-exqzaarczapfxsgkytvlqtcbeclr/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.d --serialize-diagnostics /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.dia -c /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m -o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o36"B2864B0D-D1CD-48D9-9E89-C3B34B176777-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s404189965.655176
+e404189965.955711
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.o
+x/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDV.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVTimer.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m197"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.o Classes/CDVCommandQueue.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler7deba70d7317b841^62f8f40d7317b841^---0#0#1#-19%DVTDocumentLocation2@100"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m0000000000000000^3624"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.o Classes/CDVCommandQueue.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/apigee/Desktop/Books/books/platforms/ios/build/device -DDEBUG -include /var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-exqzaarczapfxsgkytvlqtcbeclr/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.d --serialize-diagnostics /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.dia -c /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m -o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.o36"DB100339-3456-45A8-9BE4-DC70906453FB-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s404189965.798866
+e404189965.861201
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.o
+x/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVConfigParser.m197"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.o Classes/CDVConfigParser.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler2db3cc0d7317b841^b0c7dc0d7317b841^---0#0#1#-19%DVTDocumentLocation2@100"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVConfigParser.m0000000000000000^3624"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.o Classes/CDVConfigParser.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/apigee/Desktop/Books/books/platforms/ios/build/device -DDEBUG -include /var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-exqzaarczapfxsgkytvlqtcbeclr/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.d --serialize-diagnostics /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.dia -c /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVConfigParser.m -o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.o36"2E2F29AA-CF52-47AA-846D-A74090493B86-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s404189965.017372
+e404189965.151803
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.o
+x/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m207"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.o Classes/CDVInvokedUrlCommand.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler9db8040d7317b841^ebfd260d7317b841^---0#0#1#-19%DVTDocumentLocation2@105"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m0000000000000000^3654"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.o Classes/CDVInvokedUrlCommand.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/apigee/Desktop/Books/books/platforms/ios/build/device -DDEBUG -include /var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-exqzaarczapfxsgkytvlqtcbeclr/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.d --serialize-diagnostics /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.dia -c /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m -o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.o36"3C91BB74-BD26-4402-A03B-50ED67E7AD2A-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVJSON.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s404189965.862645
+e404189965.906563
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.o
+x/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVJSON.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVJSON.m
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVJSON.m181"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.o Classes/CDVJSON.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilere90fdd0d7317b841^a433e80d7317b841^---0#0#1#-19%DVTDocumentLocation2@92"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVJSON.m0000000000000000^3576"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.o Classes/CDVJSON.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/apigee/Desktop/Books/books/platforms/ios/build/device -DDEBUG -include /var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-exqzaarczapfxsgkytvlqtcbeclr/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.d --serialize-diagnostics /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.dia -c /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVJSON.m -o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.o36"C8A1B709-C890-4CDE-9A12-27977A764B9F-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s404189965.295338
+e404189965.762702
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.o
+x/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDV.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVTimer.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m197"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.o Classes/CDVLocalStorage.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler97ca4b0d7317b841^e640c30d7317b841^---0#0#1#-19%DVTDocumentLocation2@100"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m0000000000000000^3624"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.o Classes/CDVLocalStorage.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/apigee/Desktop/Books/books/platforms/ios/build/device -DDEBUG -include /var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-exqzaarczapfxsgkytvlqtcbeclr/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.d --serialize-diagnostics /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.dia -c /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m -o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.o36"98301F4E-4E86-412D-BC9B-8A4C59917EEC-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s404189965.138988
+e404189965.542311
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.o
+x/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPlugin.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPlugin.m
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPlugin.m185"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.o Classes/CDVPlugin.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler90c0230d7317b841^e5d48a0d7317b841^---0#0#1#-19%DVTDocumentLocation2@94"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPlugin.m0000000000000000^3588"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.o Classes/CDVPlugin.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/apigee/Desktop/Books/books/platforms/ios/build/device -DDEBUG -include /var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-exqzaarczapfxsgkytvlqtcbeclr/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.d --serialize-diagnostics /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.dia -c /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPlugin.m -o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.o36"BCBE1C47-9747-4622-97E5-AE0B8EA6F944-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s404189965.020609
+e404189965.196257
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.o
+x/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPluginResult.m197"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.o Classes/CDVPluginResult.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler677e050d7317b841^da53320d7317b841^---0#0#1#-19%DVTDocumentLocation2@100"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPluginResult.m0000000000000000^3624"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.o Classes/CDVPluginResult.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/apigee/Desktop/Books/books/platforms/ios/build/device -DDEBUG -include /var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-exqzaarczapfxsgkytvlqtcbeclr/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.d --serialize-diagnostics /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.dia -c /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPluginResult.m -o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.o36"4C4FD378-6856-4720-BB24-849B7B2D1BE0-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVShared.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s404189966.051631
+e404189966.107007
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.o
+x/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVShared.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVShared.m
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVShared.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVShared.m185"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.o Classes/CDVShared.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilercf810d0e7317b841^bf641b0e7317b841^---0#0#1#-19%DVTDocumentLocation2@94"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVShared.m0000000000000000^3588"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.o Classes/CDVShared.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/apigee/Desktop/Books/books/platforms/ios/build/device -DDEBUG -include /var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-exqzaarczapfxsgkytvlqtcbeclr/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.d --serialize-diagnostics /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.dia -c /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVShared.m -o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.o36"365BAA87-0361-4A81-B945-15ED4E0AF83A-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVTimer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s404189966.013478
+e404189966.090704
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.o
+x/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVTimer.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVTimer.m
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVTimer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVTimer.m183"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.o Classes/CDVTimer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler889f030e7317b841^c538170e7317b841^---0#0#1#-19%DVTDocumentLocation2@93"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVTimer.m0000000000000000^3582"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.o Classes/CDVTimer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/apigee/Desktop/Books/books/platforms/ios/build/device -DDEBUG -include /var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-exqzaarczapfxsgkytvlqtcbeclr/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.d --serialize-diagnostics /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.dia -c /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVTimer.m -o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.o36"C286EBF3-930C-4DE8-9238-DE2C18D958C5-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s404189965.197690
+e404189965.606108
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.o
+x/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m195"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.o Classes/CDVURLProtocol.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler79ca320d7317b841^d4299b0d7317b841^---0#0#1#-19%DVTDocumentLocation2@99"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m0000000000000000^3618"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.o Classes/CDVURLProtocol.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/apigee/Desktop/Books/books/platforms/ios/build/device -DDEBUG -include /var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-exqzaarczapfxsgkytvlqtcbeclr/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.d --serialize-diagnostics /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.dia -c /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m -o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.o36"A4C1B454-F1D1-482C-A457-952A37B25858-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s404189965.907990
+e404189966.156484
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.o
+x/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m199"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.o Classes/CDVUserAgentUtil.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerb2a0e80d7317b841^cb0f280e7317b841^---0#0#1#-19%DVTDocumentLocation2@101"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m0000000000000000^3630"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.o Classes/CDVUserAgentUtil.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/apigee/Desktop/Books/books/platforms/ios/build/device -DDEBUG -include /var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-exqzaarczapfxsgkytvlqtcbeclr/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.d --serialize-diagnostics /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.dia -c /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m -o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.o36"DC3E7FFC-C4FF-4812-BF59-C6E5B3BAAD56-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s404189965.212522
+e404189966.012042
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.o
+x/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVViewController.m
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDV.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVTimer.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVViewController.m201"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.o Classes/CDVViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler4295360d7317b841^2f34030e7317b841^---0#0#1#-19%DVTDocumentLocation2@102"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVViewController.m0000000000000000^3636"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.o Classes/CDVViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/apigee/Desktop/Books/books/platforms/ios/build/device -DDEBUG -include /var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-exqzaarczapfxsgkytvlqtcbeclr/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.d --serialize-diagnostics /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.dia -c /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVViewController.m -o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.o36"EBB54698-0F32-4540-9329-744A8A4AAE3B-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s404189965.957197
+e404189966.205444
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.o
+x/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m203"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.o Classes/CDVWebViewDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerf73af50d7317b841^d498340e7317b841^---0#0#1#-19%DVTDocumentLocation2@103"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m0000000000000000^3642"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.o Classes/CDVWebViewDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/apigee/Desktop/Books/books/platforms/ios/build/device -DDEBUG -include /var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-exqzaarczapfxsgkytvlqtcbeclr/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.d --serialize-diagnostics /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.dia -c /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m -o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.o36"79983F7D-9525-40EB-8461-40D68DBA07BA-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s404189965.161219
+e404189965.293949
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.o
+x/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWhitelist.m191"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.o Classes/CDVWhitelist.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler9b72290d7317b841^b6664b0d7317b841^---0#0#1#-19%DVTDocumentLocation2@97"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWhitelist.m0000000000000000^3606"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.o Classes/CDVWhitelist.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/apigee/Desktop/Books/books/platforms/ios/build/device -DDEBUG -include /var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-exqzaarczapfxsgkytvlqtcbeclr/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.d --serialize-diagnostics /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.dia -c /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWhitelist.m -o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.o36"0BBFCA2D-59FA-4220-9402-EEA37CE23646-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s404189965.607853
+e404189965.653707
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.o
+x/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m205"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.o Classes/NSArray+Comparisons.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler81cb9b0d7317b841^2559a70d7317b841^---0#0#1#-19%DVTDocumentLocation2@104"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m0000000000000000^3648"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.o Classes/NSArray+Comparisons.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/apigee/Desktop/Books/books/platforms/ios/build/device -DDEBUG -include /var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-exqzaarczapfxsgkytvlqtcbeclr/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.d --serialize-diagnostics /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.dia -c /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m -o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.o36"4A151925-BECD-434A-AE93-2F527C5E2EF4-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s404189965.017825
+e404189965.137434
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.o
+x/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSData+Base64.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSData+Base64.m
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSData+Base64.m193"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.o Classes/NSData+Base64.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler5bea040d7317b841^fd4e230d7317b841^---0#0#1#-19%DVTDocumentLocation2@98"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSData+Base64.m0000000000000000^3612"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.o Classes/NSData+Base64.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/apigee/Desktop/Books/books/platforms/ios/build/device -DDEBUG -include /var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-exqzaarczapfxsgkytvlqtcbeclr/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.d --serialize-diagnostics /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.dia -c /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSData+Base64.m -o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.o36"666B7639-B18F-4FD9-A0AA-1DFC5BB9B36E-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s404189965.017362
+e404189965.152325
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.o
+x/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m213"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.o Classes/NSDictionary+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerabb1040d7317b841^9db9270d7317b841^---0#0#1#-19%DVTDocumentLocation2@108"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m0000000000000000^3672"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.o Classes/NSDictionary+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/apigee/Desktop/Books/books/platforms/ios/build/device -DDEBUG -include /var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-exqzaarczapfxsgkytvlqtcbeclr/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.d --serialize-diagnostics /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.dia -c /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m -o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.o36"43EE90FD-7446-4FD9-9E51-37E2AB02CE2D-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s404189965.158893
+e404189965.210707
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.o
+x/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m225"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.o Classes/NSMutableArray+QueueAdditions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler27db280d7317b841^240d360d7317b841^---0#0#1#-19%DVTDocumentLocation2@114"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m0000000000000000^3708"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.o Classes/NSMutableArray+QueueAdditions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/apigee/Desktop/Books/books/platforms/ios/build/device -DDEBUG -include /var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-exqzaarczapfxsgkytvlqtcbeclr/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.d --serialize-diagnostics /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.dia -c /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m -o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.o36"C1B3FC46-35D4-4268-96D3-4754047F151B-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s404189965.543680
+e404189965.797392
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.o
+x/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
+d/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m205"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.o Classes/UIDevice+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerff598b0d7317b841^8e21cc0d7317b841^---0#0#1#-19%DVTDocumentLocation2@104"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m0000000000000000^3648"CompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.o Classes/UIDevice+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/apigee/Desktop/Books/books/platforms/ios/build/device -DDEBUG -include /var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-exqzaarczapfxsgkytvlqtcbeclr/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.d --serialize-diagnostics /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.dia -c /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m -o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.o36"8D0D77C9-E7C5-45B0-96FB-80B63604E38D-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCpHeader Classes/CDV.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDV.h
+s404189964.966788
+e404189964.980355
+r1
+xCpHeader
+xClasses/CDV.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDV.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDV.h105"CpHeader Classes/CDV.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDV.he691f70c7317b841^2b12fb0c7317b841^---0#0#1#-19%DVTDocumentLocation2@98"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDV.h0038a427dcffdf42^759"CpHeader Classes/CDV.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDV.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDV.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova36"CDA7B528-EC72-4BFB-8416-D582E14D5EAE-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCpHeader Classes/CDVAvailability.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+s404189964.975984
+e404189964.980750
+r1
+xCpHeader
+xClasses/CDVAvailability.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVAvailability.h129"CpHeader Classes/CDVAvailability.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVAvailability.h17f5f90c7317b841^b534fb0c7317b841^---0#0#1#-19%DVTDocumentLocation2@110"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVAvailability.h0038a427dcffdf42^795"CpHeader Classes/CDVAvailability.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVAvailability.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVAvailability.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova36"244BAE11-FC3C-4787-8EB4-63B86DC32F7C-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCpHeader Classes/CDVCommandDelegate.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+s404189964.964692
+e404189964.975804
+r1
+xCpHeader
+xClasses/CDVCommandDelegate.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h135"CpHeader Classes/CDVCommandDelegate.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h1613f70c7317b841^cd05fa0c7317b841^---0#0#1#-19%DVTDocumentLocation2@113"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h0038a427dcffdf42^804"CpHeader Classes/CDVCommandDelegate.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova36"20832267-6A75-4BE6-B0FD-85046A9A151C-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCpHeader Classes/CDVCommandDelegateImpl.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
+s404189964.988847
+e404189964.993993
+r1
+xCpHeader
+xClasses/CDVCommandDelegateImpl.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h143"CpHeader Classes/CDVCommandDelegateImpl.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h94a2fd0c7317b841^2590fe0c7317b841^---0#0#1#-19%DVTDocumentLocation2@117"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h0038a427dcffdf42^816"CpHeader Classes/CDVCommandDelegateImpl.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova36"0EB777AD-DAF4-4640-99C8-CEC144BA6260-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCpHeader Classes/CDVCommandQueue.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
+s404189964.984309
+e404189964.990878
+r1
+xCpHeader
+xClasses/CDVCommandQueue.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h129"CpHeader Classes/CDVCommandQueue.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h3317fc0c7317b841^118afd0c7317b841^---0#0#1#-19%DVTDocumentLocation2@110"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h0038a427dcffdf42^795"CpHeader Classes/CDVCommandQueue.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova36"32F59C8E-2F46-489D-9989-1A5F955FE2E7-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCpHeader Classes/CDVConfigParser.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVConfigParser.h
+s404189964.992353
+e404189964.999498
+r1
+xCpHeader
+xClasses/CDVConfigParser.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVConfigParser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVConfigParser.h129"CpHeader Classes/CDVConfigParser.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVConfigParser.h1537fe0c7317b841^82fdff0c7317b841^---0#0#1#-19%DVTDocumentLocation2@110"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVConfigParser.h0038a427dcffdf42^795"CpHeader Classes/CDVConfigParser.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVConfigParser.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVConfigParser.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova36"75D28FFD-C830-40BF-9B4D-D823E73EFE13-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCpHeader Classes/CDVDebug.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVDebug.h
+s404189964.945116
+e404189964.961523
+r1
+xCpHeader
+xClasses/CDVDebug.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVDebug.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVDebug.h115"CpHeader Classes/CDVDebug.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVDebug.h020df20c7317b841^730ef60c7317b841^---0#0#1#-19%DVTDocumentLocation2@103"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVDebug.h0038a427dcffdf42^774"CpHeader Classes/CDVDebug.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVDebug.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVDebug.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova36"8A7CF8C1-CB0E-48C4-83C3-294BA44C51F6-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCpHeader Classes/CDVInvokedUrlCommand.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+s404189964.925788
+e404189964.943878
+r1
+xCpHeader
+xClasses/CDVInvokedUrlCommand.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h139"CpHeader Classes/CDVInvokedUrlCommand.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h897aed0c7317b841^6ea7f10c7317b841^---0#0#1#-19%DVTDocumentLocation2@115"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h008c89cbd2ecdf42^810"CpHeader Classes/CDVInvokedUrlCommand.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova36"5A4D0C96-ED57-4AFD-B6E2-2B83F7F4F51A-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCpHeader Classes/CDVJSON.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVJSON.h
+s404189964.995458
+e404189964.999770
+r1
+xCpHeader
+xClasses/CDVJSON.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVJSON.h113"CpHeader Classes/CDVJSON.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVJSON.hd8f2fe0c7317b841^0307000d7317b841^---0#0#1#-19%DVTDocumentLocation2@102"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVJSON.h0038a427dcffdf42^771"CpHeader Classes/CDVJSON.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVJSON.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVJSON.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova36"7429B40D-4686-4CEB-A8F7-750C9A508093-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCpHeader Classes/CDVLocalStorage.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h
+s404189964.976099
+e404189964.985432
+r1
+xCpHeader
+xClasses/CDVLocalStorage.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h129"CpHeader Classes/CDVLocalStorage.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h01faf90c7317b841^a88ffc0c7317b841^---0#0#1#-19%DVTDocumentLocation2@110"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h0038a427dcffdf42^795"CpHeader Classes/CDVLocalStorage.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova36"B8F79200-9706-48BE-BB56-467C48E8764F-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCpHeader Classes/CDVPlugin.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+s404189964.944301
+e404189964.960417
+r1
+xCpHeader
+xClasses/CDVPlugin.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVPlugin.h117"CpHeader Classes/CDVPlugin.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVPlugin.hcbdbf10c7317b841^30f3f50c7317b841^---0#0#1#-19%DVTDocumentLocation2@104"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVPlugin.h0038a427dcffdf42^777"CpHeader Classes/CDVPlugin.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVPlugin.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPlugin.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova36"56D14E8F-4C22-4997-81B5-97A17581D1DF-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCpHeader Classes/CDVPluginResult.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+s404189964.926232
+e404189964.942649
+r1
+xCpHeader
+xClasses/CDVPluginResult.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVPluginResult.h129"CpHeader Classes/CDVPluginResult.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVPluginResult.he179ed0c7317b841^3b52f10c7317b841^---0#0#1#-19%DVTDocumentLocation2@110"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVPluginResult.h0038a427dcffdf42^795"CpHeader Classes/CDVPluginResult.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVPluginResult.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPluginResult.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova36"23913358-8F5E-47A9-B1DD-58BDCA6A4104-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCpHeader Classes/CDVScreenOrientationDelegate.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
+s404189964.990109
+e404189964.998715
+r1
+xCpHeader
+xClasses/CDVScreenOrientationDelegate.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h155"CpHeader Classes/CDVScreenOrientationDelegate.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.ha3cdfd0c7317b841^8cb9ff0c7317b841^---0#0#1#-19%DVTDocumentLocation2@123"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h0038a427dcffdf42^834"CpHeader Classes/CDVScreenOrientationDelegate.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova36"F6D89BAC-0E37-4A88-80DF-6DD2465FE685-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCpHeader Classes/CDVShared.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVShared.h
+s404189964.989874
+e404189964.997866
+r1
+xCpHeader
+xClasses/CDVShared.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVShared.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVShared.h117"CpHeader Classes/CDVShared.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVShared.h5ebafd0c7317b841^1f81ff0c7317b841^---0#0#1#-19%DVTDocumentLocation2@104"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVShared.h0038a427dcffdf42^777"CpHeader Classes/CDVShared.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVShared.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVShared.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova36"D45A8175-2C4C-447B-B11F-EDED861A30D9-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCpHeader Classes/CDVTimer.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVTimer.h
+s404189965.000985
+e404189965.006541
+r1
+xCpHeader
+xClasses/CDVTimer.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVTimer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVTimer.h115"CpHeader Classes/CDVTimer.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVTimer.h2d5e000d7317b841^65c8010d7317b841^---0#0#1#-19%DVTDocumentLocation2@103"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVTimer.h0038a427dcffdf42^774"CpHeader Classes/CDVTimer.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVTimer.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVTimer.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova36"8EBE4904-FA5A-48FD-A037-548C14075DC4-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCpHeader Classes/CDVURLProtocol.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h
+s404189964.961777
+e404189964.973856
+r1
+xCpHeader
+xClasses/CDVURLProtocol.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h127"CpHeader Classes/CDVURLProtocol.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h7077f60c7317b841^fe5ff90c7317b841^---0#0#1#-19%DVTDocumentLocation2@109"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h0038a427dcffdf42^792"CpHeader Classes/CDVURLProtocol.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova36"EEED8C52-9A48-49DF-863B-FE318AF5E5AD-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCpHeader Classes/CDVUserAgentUtil.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h
+s404189965.000303
+e404189965.003861
+r1
+xCpHeader
+xClasses/CDVUserAgentUtil.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h131"CpHeader Classes/CDVUserAgentUtil.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h232e000d7317b841^1615010d7317b841^---0#0#1#-19%DVTDocumentLocation2@111"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h0038a427dcffdf42^798"CpHeader Classes/CDVUserAgentUtil.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova36"F42CF8F7-8470-4AEF-8F96-A2FE1CCFA60A-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCpHeader Classes/CDVViewController.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVViewController.h
+s404189964.963079
+e404189964.973848
+r1
+xCpHeader
+xClasses/CDVViewController.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVViewController.h133"CpHeader Classes/CDVViewController.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVViewController.habb3f60c7317b841^105cf90c7317b841^---0#0#1#-19%DVTDocumentLocation2@112"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVViewController.h0038a427dcffdf42^801"CpHeader Classes/CDVViewController.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVViewController.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVViewController.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova36"9A4FD1E7-1189-4343-8641-503FF6C1A44E-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCpHeader Classes/CDVWebViewDelegate.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h
+s404189964.999356
+e404189965.002649
+r1
+xCpHeader
+xClasses/CDVWebViewDelegate.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h135"CpHeader Classes/CDVWebViewDelegate.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h38f7ff0c7317b841^32ae000d7317b841^---0#0#1#-19%DVTDocumentLocation2@113"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h0038a427dcffdf42^804"CpHeader Classes/CDVWebViewDelegate.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova36"1F35C8C6-2E70-4A80-90DF-1C991ADDA014-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCpHeader Classes/CDVWhitelist.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
+s404189964.961615
+e404189964.965557
+r1
+xCpHeader
+xClasses/CDVWhitelist.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVWhitelist.h123"CpHeader Classes/CDVWhitelist.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVWhitelist.hdb6af60c7317b841^7138f70c7317b841^---0#0#1#-19%DVTDocumentLocation2@107"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVWhitelist.h0038a427dcffdf42^786"CpHeader Classes/CDVWhitelist.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/CDVWhitelist.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWhitelist.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova36"642B163C-224C-4277-8460-FD5234495AC7-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCpHeader Classes/NSArray+Comparisons.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h
+s404189964.983019
+e404189964.987260
+r1
+xCpHeader
+xClasses/NSArray+Comparisons.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h137"CpHeader Classes/NSArray+Comparisons.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h12c2fb0c7317b841^bda9fc0c7317b841^---0#0#1#-19%DVTDocumentLocation2@114"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h0038a427dcffdf42^807"CpHeader Classes/NSArray+Comparisons.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova36"5D6E1DE6-4E2E-4EC0-BB05-E371E210A9BB-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCpHeader Classes/NSData+Base64.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/NSData+Base64.h
+s404189964.925869
+e404189964.959519
+r1
+xCpHeader
+xClasses/NSData+Base64.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/NSData+Base64.h125"CpHeader Classes/NSData+Base64.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/NSData+Base64.h967bed0c7317b841^fca5f50c7317b841^---0#0#1#-19%DVTDocumentLocation2@108"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/NSData+Base64.h0080aad8d2ecdf42^789"CpHeader Classes/NSData+Base64.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/NSData+Base64.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSData+Base64.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova36"613120D7-6A0E-45AE-9925-417A60D55239-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCpHeader Classes/NSDictionary+Extensions.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h
+s404189964.925150
+e404189964.955304
+r1
+xCpHeader
+xClasses/NSDictionary+Extensions.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h145"CpHeader Classes/NSDictionary+Extensions.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h0f7bed0c7317b841^c5c6f40c7317b841^---0#0#1#-19%DVTDocumentLocation2@118"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h0024ba1bd2ecdf42^819"CpHeader Classes/NSDictionary+Extensions.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova36"DAF89B6B-9BEE-432A-877F-BB75760EFE10-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+s404189964.958238
+e404189964.963116
+r1
+xCpHeader
+xClasses/NSMutableArray+QueueAdditions.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h157"CpHeader Classes/NSMutableArray+QueueAdditions.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h016bf50c7317b841^6ea2f60c7317b841^---0#0#1#-19%DVTDocumentLocation2@124"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h0038a427dcffdf42^837"CpHeader Classes/NSMutableArray+QueueAdditions.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova36"F58DCA6B-6178-40DA-94D6-C418F8278A92-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CCpHeader Classes/UIDevice+Extensions.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h
+s404189964.977911
+e404189964.985425
+r1
+xCpHeader
+xClasses/UIDevice+Extensions.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h137"CpHeader Classes/UIDevice+Extensions.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.hf67bfa0c7317b841^338bfc0c7317b841^---0#0#1#-19%DVTDocumentLocation2@114"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h0038a427dcffdf42^807"CpHeader Classes/UIDevice+Extensions.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h /Users/apigee/Desktop/Books/books/platforms/ios/build/device/include/Cordova36"27868DDE-4C37-4A2F-942A-96D6C44A44E5-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CLibtool /Users/apigee/Desktop/Books/books/platforms/ios/build/device/libCordova.a normal armv7
+s404189966.215864
+e404189966.234656
+r1
+xLibtool
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/device/libCordova.a
+xnormal
+xarmv7
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Libtool /Users/apigee/Desktop/Books/books/platforms/ios/build/device/libCordova.a normal armv794"Libtool /Users/apigee/Desktop/Books/books/platforms/ios/build/device/libCordova.a normal armv73659370e7317b841^9d123c0e7317b841^---0#0#1#--1072"Libtool /Users/apigee/Desktop/Books/books/platforms/ios/build/device/libCordova.a normal armv7    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/apigee/Desktop/Books/books/platforms/ios/build/device -filelist /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/Cordova.LinkFileList -o /Users/apigee/Desktop/Books/books/platforms/ios/build/device/libCordova.a36"EA29D0E3-2403-44C7-BCEC-09DDB07FD39E-
+b04C5D9B5-4338-421C-A278-9424F6639219
+
+CProcessPCH /var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-exqzaarczapfxsgkytvlqtcbeclr/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+

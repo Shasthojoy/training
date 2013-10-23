@@ -1,0 +1,818 @@
+TCordovaLib
+v6
+r1
+cCheck dependencies
+cCpHeader Classes/NSDictionary+Extensions.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+cCpHeader Classes/CDVInvokedUrlCommand.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+cCpHeader Classes/CDVPluginResult.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+cCpHeader Classes/NSData+Base64.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
+cCpHeader Classes/CDVPlugin.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+cCpHeader Classes/CDVDebug.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+cCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+cCpHeader Classes/CDVWhitelist.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+cCpHeader Classes/CDVURLProtocol.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
+cCpHeader Classes/CDVViewController.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+cCpHeader Classes/CDVCommandDelegate.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+cCpHeader Classes/CDV.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDV.h
+cCpHeader Classes/CDVAvailability.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+cCpHeader Classes/CDVLocalStorage.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
+cCpHeader Classes/UIDevice+Extensions.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
+cCpHeader Classes/NSArray+Comparisons.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+cCpHeader Classes/CDVCommandQueue.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+cCpHeader Classes/CDVCommandDelegateImpl.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+cCpHeader Classes/CDVShared.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVShared.h
+cCpHeader Classes/CDVScreenOrientationDelegate.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+cCpHeader Classes/CDVConfigParser.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
+cCpHeader Classes/CDVJSON.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+cCpHeader Classes/CDVWebViewDelegate.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
+cCpHeader Classes/CDVUserAgentUtil.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
+cCpHeader Classes/CDVTimer.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
+cProcessPCH /var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-fkcurujzmuoympheqibmxalsknhl/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVShared.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/libCordova.a normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c00000000521BCCE50000000000000176
+t1377553637
+s374
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c0000000052499F7900000000000003B5
+t1380556665
+s949
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000052499F87000000000000019E
+t1380556679
+s414
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDV.h
+c0000000052673B090000000000000516
+t1382497033
+s1302
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+c0000000052673B090000000000000C83
+t1382497033
+s3203
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+c0000000052673B0900000000000008BA
+t1382497033
+s2234
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+c0000000052673B090000000000000473
+t1382497033
+s1139
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
+c0000000052673B09000000000000126E
+t1382497033
+s4718
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+c0000000052673B090000000000000501
+t1382497033
+s1281
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
+c0000000052673B09000000000000158B
+t1382497033
+s5515
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
+c0000000052673B0900000000000004CB
+t1382497033
+s1227
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
+c0000000052673B090000000000000EB2
+t1382497033
+s3762
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVDebug.h
+c0000000052673B090000000000000401
+t1382497033
+s1025
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+c0000000052673B0900000000000007E6
+t1382497033
+s2022
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
+c0000000052673B090000000000000DDE
+t1382497033
+s3550
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVJSON.h
+c0000000052673B0900000000000003DA
+t1382497033
+s986
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVJSON.m
+c0000000052673B09000000000000098E
+t1382497033
+s2446
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+c0000000052673B0900000000000006CF
+t1382497033
+s1743
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
+c0000000052673B090000000000004C7E
+t1382497033
+s19582
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+c0000000052673B090000000000000892
+t1382497033
+s2194
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPlugin.m
+c0000000052673B0900000000000016AE
+t1382497033
+s5806
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+c0000000052673B090000000000000C13
+t1382497033
+s3091
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
+c0000000052673B090000000000001B29
+t1382497033
+s6953
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+c0000000052673B090000000000000408
+t1382497033
+s1032
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVShared.h
+c0000000052673B0900000000000003E6
+t1382497033
+s998
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVShared.m
+c0000000052673B0900000000000006B6
+t1382497033
+s1718
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVTimer.h
+c0000000052673B09000000000000038D
+t1382497033
+s909
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVTimer.m
+c0000000052673B090000000000000AA2
+t1382497033
+s2722
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+c0000000052673B09000000000000041C
+t1382497033
+s1052
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
+c0000000052673B090000000000002514
+t1382497033
+s9492
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
+c0000000052673B090000000000000421
+t1382497033
+s1057
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
+c0000000052673B0900000000000012A2
+t1382497033
+s4770
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVViewController.h
+c0000000052673B090000000000000ACC
+t1382497033
+s2764
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVViewController.m
+c0000000052673B090000000000009F3C
+t1382497033
+s40764
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
+c0000000052673B0900000000000005A2
+t1382497033
+s1442
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
+c0000000052673B0900000000000037C6
+t1382497033
+s14278
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+c0000000052673B0900000000000004B4
+t1382497033
+s1204
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
+c0000000052673B0900000000000027D3
+t1382497033
+s10195
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+c0000000052673B090000000000000392
+t1382497033
+s914
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
+c0000000052673B0900000000000004D8
+t1382497033
+s1240
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+c0000000052673B09000000000000037D
+t1382497033
+s893
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSData+Base64.m
+c0000000052673B0900000000000022CC
+t1382497033
+s8908
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+c0000000052673B0900000000000005DA
+t1382497033
+s1498
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
+c0000000052673B090000000000001059
+t1382497033
+s4185
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+c0000000052673B0900000000000003A0
+t1382497033
+s928
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
+c0000000052673B090000000000000584
+t1382497033
+s1412
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+c0000000052673B090000000000000476
+t1382497033
+s1142
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
+c0000000052673B090000000000000620
+t1382497033
+s1568
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/CordovaLib_Prefix.pch
+c0000000052673B090000000000000346
+t1382497033
+s838
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o
+t1382497041
+s63140
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o
+t1382497041
+s60080
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o
+t1382497041
+s27748
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o
+t1382497040
+s18708
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o
+t1382497041
+s10864
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o
+t1382497041
+s109624
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o
+t1382497041
+s59516
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o
+t1382497040
+s37228
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o
+t1382497041
+s9392
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o
+t1382497041
+s22940
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o
+t1382497041
+s71232
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o
+t1382497041
+s52708
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o
+t1382497041
+s191832
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o
+t1382497042
+s71308
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o
+t1382497041
+s42352
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/Cordova.LinkFileList
+c0000000052673B100000000000000C7B
+t1382497040
+s3195
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o
+t1382497041
+s7472
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o
+t1382497040
+s11136
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o
+t1382497040
+s17844
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o
+t1382497040
+s6984
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o
+t1382497041
+s9604
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDV.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVShared.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
+t2
+s0
+
+N/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/libCordova.a
+t2
+s0
+
+N/var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-fkcurujzmuoympheqibmxalsknhl/CordovaLib_Prefix.pch.pch
+t1382497040
+s3202176
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies419c5f107317b841^859972107317b841^---0#1#1#--18"Check dependencies36"641C7E5B-00E7-4F81-AF40-574E29F1E0DD-
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVShared.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCpHeader Classes/CDV.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDV.h
+s404189968.463672
+e404189968.468216
+r1
+xCpHeader
+xClasses/CDV.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDV.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDV.h107"CpHeader Classes/CDV.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDV.he7c476107317b841^dbdd77107317b841^---0#0#1#-19%DVTDocumentLocation2@100"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDV.h0038a427dcffdf42^770"CpHeader Classes/CDV.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDV.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDV.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova36"3AE02367-E57B-4E70-8B8F-61EC9842FE48-
+b75B0BEE8-E93B-4323-B934-210DF26C57E9
+
+CCpHeader Classes/CDVAvailability.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+s404189968.465955
+e404189968.469273
+r1
+xCpHeader
+xClasses/CDVAvailability.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h131"CpHeader Classes/CDVAvailability.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h996577107317b841^792278107317b841^---0#0#1#-19%DVTDocumentLocation2@112"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h0038a427dcffdf42^806"CpHeader Classes/CDVAvailability.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVAvailability.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova36"0F1024A3-C971-4D5F-BC38-758C8A354D5D-
+b75B0BEE8-E93B-4323-B934-210DF26C57E9
+
+CCpHeader Classes/CDVCommandDelegate.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+s404189968.463594
+e404189968.467168
+r1
+xCpHeader
+xClasses/CDVCommandDelegate.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h137"CpHeader Classes/CDVCommandDelegate.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.hfcc376107317b841^2d9977107317b841^---0#0#1#-19%DVTDocumentLocation2@115"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h0038a427dcffdf42^815"CpHeader Classes/CDVCommandDelegate.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova36"13FB1A50-DFE9-4A32-BE75-ADA2A4466DFD-
+b75B0BEE8-E93B-4323-B934-210DF26C57E9
+
+CCpHeader Classes/CDVCommandDelegateImpl.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+s404189968.471559
+e404189968.474603
+r1
+xCpHeader
+xClasses/CDVCommandDelegateImpl.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h145"CpHeader Classes/CDVCommandDelegateImpl.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h5ccb78107317b841^e08179107317b841^---0#0#1#-19%DVTDocumentLocation2@119"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h0038a427dcffdf42^827"CpHeader Classes/CDVCommandDelegateImpl.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova36"C269EBC1-D65D-4DE6-B9C6-C49B0A4A470D-
+b75B0BEE8-E93B-4323-B934-210DF26C57E9
+
+CCpHeader Classes/CDVCommandQueue.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+s404189968.469509
+e404189968.473515
+r1
+xCpHeader
+xClasses/CDVCommandQueue.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h131"CpHeader Classes/CDVCommandQueue.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h514a78107317b841^ce3879107317b841^---0#0#1#-19%DVTDocumentLocation2@112"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h0038a427dcffdf42^806"CpHeader Classes/CDVCommandQueue.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova36"4CD06F81-F35E-42CD-A79E-AA9982EC1580-
+b75B0BEE8-E93B-4323-B934-210DF26C57E9
+
+CCpHeader Classes/CDVConfigParser.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
+s404189968.474842
+e404189968.478158
+r1
+xCpHeader
+xClasses/CDVConfigParser.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h131"CpHeader Classes/CDVConfigParser.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.hcea879107317b841^49697a107317b841^---0#0#1#-19%DVTDocumentLocation2@112"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h0038a427dcffdf42^806"CpHeader Classes/CDVConfigParser.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVConfigParser.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova36"64F1247E-5049-4B36-B688-272D903055E2-
+b75B0BEE8-E93B-4323-B934-210DF26C57E9
+
+CCpHeader Classes/CDVDebug.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+s404189968.458014
+e404189968.461167
+r1
+xCpHeader
+xClasses/CDVDebug.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVDebug.h117"CpHeader Classes/CDVDebug.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVDebug.h795b75107317b841^b60e76107317b841^---0#0#1#-19%DVTDocumentLocation2@105"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVDebug.h0038a427dcffdf42^785"CpHeader Classes/CDVDebug.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVDebug.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVDebug.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova36"064DC82A-FE6A-41DC-9324-8869BE45168C-
+b75B0BEE8-E93B-4323-B934-210DF26C57E9
+
+CCpHeader Classes/CDVInvokedUrlCommand.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+s404189968.451872
+e404189968.455994
+r1
+xCpHeader
+xClasses/CDVInvokedUrlCommand.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h141"CpHeader Classes/CDVInvokedUrlCommand.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.ha9f873107317b841^27bc74107317b841^---0#0#1#-19%DVTDocumentLocation2@117"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h0000a8522bfbdf42^821"CpHeader Classes/CDVInvokedUrlCommand.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova36"19B94B07-D3C2-4390-B179-EBCBC187E8A2-
+b75B0BEE8-E93B-4323-B934-210DF26C57E9
+
+CCpHeader Classes/CDVJSON.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+s404189968.474936
+e404189968.479201
+r1
+xCpHeader
+xClasses/CDVJSON.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVJSON.h115"CpHeader Classes/CDVJSON.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVJSON.hcaa979107317b841^68af7a107317b841^---0#0#1#-19%DVTDocumentLocation2@104"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVJSON.h0038a427dcffdf42^782"CpHeader Classes/CDVJSON.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVJSON.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVJSON.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova36"9969C1DC-EFAA-4751-9F7B-6C2334D4B415-
+b75B0BEE8-E93B-4323-B934-210DF26C57E9
+
+CCpHeader Classes/CDVLocalStorage.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
+s404189968.467229
+e404189968.470366
+r1
+xCpHeader
+xClasses/CDVLocalStorage.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h131"CpHeader Classes/CDVLocalStorage.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h24b677107317b841^906a78107317b841^---0#0#1#-19%DVTDocumentLocation2@112"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h0038a427dcffdf42^806"CpHeader Classes/CDVLocalStorage.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova36"D0B91E8B-AE33-441A-A001-D123DDC4EFAD-
+b75B0BEE8-E93B-4323-B934-210DF26C57E9
+
+CCpHeader Classes/CDVPlugin.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+s404189968.457295
+e404189968.460247
+r1
+xCpHeader
+xClasses/CDVPlugin.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h119"CpHeader Classes/CDVPlugin.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h302e75107317b841^35d375107317b841^---0#0#1#-19%DVTDocumentLocation2@106"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h0038a427dcffdf42^788"CpHeader Classes/CDVPlugin.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPlugin.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova36"F9832575-D5A6-4D8B-A3BF-A36260BF9866-
+b75B0BEE8-E93B-4323-B934-210DF26C57E9
+
+CCpHeader Classes/CDVPluginResult.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+s404189968.452075
+e404189968.457029
+r1
+xCpHeader
+xClasses/CDVPluginResult.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h131"CpHeader Classes/CDVPluginResult.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h05fb73107317b841^0d0075107317b841^---0#0#1#-19%DVTDocumentLocation2@112"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h0038a427dcffdf42^806"CpHeader Classes/CDVPluginResult.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVPluginResult.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova36"7365DDC4-816E-48AD-9CBE-F063C7598886-
+b75B0BEE8-E93B-4323-B934-210DF26C57E9
+
+CCpHeader Classes/CDVScreenOrientationDelegate.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+s404189968.473703
+e404189968.477017
+r1
+xCpHeader
+xClasses/CDVScreenOrientationDelegate.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h157"CpHeader Classes/CDVScreenOrientationDelegate.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h925979107317b841^ed2c7a107317b841^---0#0#1#-19%DVTDocumentLocation2@125"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h0038a427dcffdf42^845"CpHeader Classes/CDVScreenOrientationDelegate.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova36"7548666E-10E7-4DE9-83FF-AC662EC14397-
+b75B0BEE8-E93B-4323-B934-210DF26C57E9
+
+CCpHeader Classes/CDVShared.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVShared.h
+s404189968.471778
+e404189968.475786
+r1
+xCpHeader
+xClasses/CDVShared.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVShared.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVShared.h119"CpHeader Classes/CDVShared.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVShared.h5dde78107317b841^78cf79107317b841^---0#0#1#-19%DVTDocumentLocation2@106"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVShared.h0038a427dcffdf42^788"CpHeader Classes/CDVShared.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVShared.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVShared.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova36"D06AB70F-680A-4F54-9233-249984FAF99A-
+b75B0BEE8-E93B-4323-B934-210DF26C57E9
+
+CCpHeader Classes/CDVTimer.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
+s404189968.478398
+e404189968.481459
+r1
+xCpHeader
+xClasses/CDVTimer.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVTimer.h117"CpHeader Classes/CDVTimer.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVTimer.hea917a107317b841^9e417b107317b841^---0#0#1#-19%DVTDocumentLocation2@105"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVTimer.h0038a427dcffdf42^785"CpHeader Classes/CDVTimer.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVTimer.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVTimer.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova36"2FC46FF3-1116-41E3-B5DA-0664C0EAAA60-
+b75B0BEE8-E93B-4323-B934-210DF26C57E9
+
+CCpHeader Classes/CDVURLProtocol.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
+s404189968.461435
+e404189968.464631
+r1
+xCpHeader
+xClasses/CDVURLProtocol.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h129"CpHeader Classes/CDVURLProtocol.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h433876107317b841^9cfc76107317b841^---0#0#1#-19%DVTDocumentLocation2@111"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h0038a427dcffdf42^803"CpHeader Classes/CDVURLProtocol.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova36"D2E16D44-BE03-4419-BD46-F0B8903FBFB4-
+b75B0BEE8-E93B-4323-B934-210DF26C57E9
+
+CCpHeader Classes/CDVUserAgentUtil.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
+s404189968.478375
+e404189968.482653
+r1
+xCpHeader
+xClasses/CDVUserAgentUtil.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h133"CpHeader Classes/CDVUserAgentUtil.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h32917a107317b841^8a8f7b107317b841^---0#0#1#-19%DVTDocumentLocation2@113"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h0038a427dcffdf42^809"CpHeader Classes/CDVUserAgentUtil.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova36"186FD30F-737F-4A87-B155-B758C63361ED-
+b75B0BEE8-E93B-4323-B934-210DF26C57E9
+
+CCpHeader Classes/CDVViewController.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+s404189968.461625
+e404189968.465957
+r1
+xCpHeader
+xClasses/CDVViewController.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVViewController.h135"CpHeader Classes/CDVViewController.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVViewController.h524476107317b841^514b77107317b841^---0#0#1#-19%DVTDocumentLocation2@114"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVViewController.h0038a427dcffdf42^812"CpHeader Classes/CDVViewController.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVViewController.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVViewController.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova36"844F0D00-DB88-4897-B425-CE7386A0FE30-
+b75B0BEE8-E93B-4323-B934-210DF26C57E9
+
+CCpHeader Classes/CDVWebViewDelegate.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
+s404189968.477063
+e404189968.480244
+r1
+xCpHeader
+xClasses/CDVWebViewDelegate.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h137"CpHeader Classes/CDVWebViewDelegate.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.hf33e7a107317b841^edf17a107317b841^---0#0#1#-19%DVTDocumentLocation2@115"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h0038a427dcffdf42^815"CpHeader Classes/CDVWebViewDelegate.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova36"71C96A43-85A3-4F3E-A470-0016499642BC-
+b75B0BEE8-E93B-4323-B934-210DF26C57E9
+
+CCpHeader Classes/CDVWhitelist.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+s404189968.459659
+e404189968.463390
+r1
+xCpHeader
+xClasses/CDVWhitelist.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h125"CpHeader Classes/CDVWhitelist.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h33c475107317b841^e4a276107317b841^---0#0#1#-19%DVTDocumentLocation2@109"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h0038a427dcffdf42^797"CpHeader Classes/CDVWhitelist.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/CDVWhitelist.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova36"F76D5928-ECDF-454C-B41A-67851CF89A47-
+b75B0BEE8-E93B-4323-B934-210DF26C57E9
+
+CCpHeader Classes/NSArray+Comparisons.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+s404189968.469478
+e404189968.472441
+r1
+xCpHeader
+xClasses/NSArray+Comparisons.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h139"CpHeader Classes/NSArray+Comparisons.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h024578107317b841^8cf278107317b841^---0#0#1#-19%DVTDocumentLocation2@116"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h0038a427dcffdf42^818"CpHeader Classes/NSArray+Comparisons.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova36"88BF91DC-DA41-41B9-A056-87EB91EC3964-
+b75B0BEE8-E93B-4323-B934-210DF26C57E9
+
+CCpHeader Classes/NSData+Base64.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
+s404189968.452126
+e404189968.459090
+r1
+xCpHeader
+xClasses/NSData+Base64.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h127"CpHeader Classes/NSData+Base64.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/NSData+Base64.hb9fc73107317b841^908875107317b841^---0#0#1#-19%DVTDocumentLocation2@110"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h0038a427dcffdf42^800"CpHeader Classes/NSData+Base64.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSData+Base64.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova36"871F763B-6653-4B14-AD2F-CE9C966F9F7B-
+b75B0BEE8-E93B-4323-B934-210DF26C57E9
+
+CCpHeader Classes/NSDictionary+Extensions.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+s404189968.451861
+e404189968.458084
+r1
+xCpHeader
+xClasses/NSDictionary+Extensions.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h147"CpHeader Classes/NSDictionary+Extensions.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h8ffa73107317b841^c84575107317b841^---0#0#1#-19%DVTDocumentLocation2@120"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h0038a427dcffdf42^830"CpHeader Classes/NSDictionary+Extensions.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova36"EC71EC41-D9A6-4B05-9A6A-864BA9B878EC-
+b75B0BEE8-E93B-4323-B934-210DF26C57E9
+
+CCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+s404189968.459380
+e404189968.462317
+r1
+xCpHeader
+xClasses/NSMutableArray+QueueAdditions.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h159"CpHeader Classes/NSMutableArray+QueueAdditions.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.hccb475107317b841^ee5a76107317b841^---0#0#1#-19%DVTDocumentLocation2@126"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h0038a427dcffdf42^848"CpHeader Classes/NSMutableArray+QueueAdditions.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova36"72CF4B60-DF9C-491D-B0EB-AAF605BE52B8-
+b75B0BEE8-E93B-4323-B934-210DF26C57E9
+
+CCpHeader Classes/UIDevice+Extensions.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
+s404189968.468421
+e404189968.471256
+r1
+xCpHeader
+xClasses/UIDevice+Extensions.h
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h139"CpHeader Classes/UIDevice+Extensions.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h430478107317b841^dfa578107317b841^---0#0#1#-19%DVTDocumentLocation2@116"file://localhost/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h0038a427dcffdf42^818"CpHeader Classes/UIDevice+Extensions.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/include/Cordova36"903021A9-BB0B-4385-97C8-0C57DC195598-
+b75B0BEE8-E93B-4323-B934-210DF26C57E9
+
+CLibtool /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/libCordova.a normal i386
+s404189968.499492
+e404189968.548977
+r1
+xLibtool
+x/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/libCordova.a
+xnormal
+xi386
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Libtool /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/libCordova.a normal i38695"Libtool /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/libCordova.a normal i386b5fd7f107317b841^bd8a8c107317b841^---0#0#1#--1103"Libtool /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/libCordova.a normal i386    cd /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/apigee/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Android Studio.app/sdk/platform-tools:/Applications/Android Studio.app/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/apigee/Desktop/Books/books/platforms/ios/build/emulator -filelist /Users/apigee/Desktop/Books/books/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/Cordova.LinkFileList -o /Users/apigee/Desktop/Books/books/platforms/ios/build/emulator/libCordova.a36"407A40F3-FB8A-403C-BD1F-7C3EFE5876B7-
+b75B0BEE8-E93B-4323-B934-210DF26C57E9
+
+CProcessPCH /var/folders/my/8p3y4jld6qz1dsxf53c5jzp00000gn/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-fkcurujzmuoympheqibmxalsknhl/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
