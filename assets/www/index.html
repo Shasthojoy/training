@@ -2,27 +2,30 @@
 <html>
     <head>
         <title>Apigee Training App</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
-        <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-        <script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
-        <script src="https://apigee.com/usergrid/sdk/usergrid.0.10.5.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+        <script src="apigee.js"></script>
         <script type="text/javascript">
         
-            var apigee = new Usergrid.Client({
+            console.log('in');
+            var apigee = new Apigee.Client({
                 orgName:'YOUR APIGEE.COM USERNAME',
                 appName:'sandbox'
             });
 
             // A Collection object that will be used to hold the list of books locally
-            var my_books = new Usergrid.Collection( { "client":apigee, "type":"books" } );
+            var my_books = new Apigee.Collection( { "client":apigee, "type":"books" } );
 
 
-            $(document).on('pageinit', function(){
+            $(document).ready(function () {
                 $('#create-button').bind('click', createBook);
-                
-                loadBooks();
             });
+
+            loadBooks();
+            console.log('called loadbooks');
 
             function loadBooks () {
                 
@@ -68,7 +71,7 @@
     <body>
 
         <div data-role="page" data-theme="c" id="page-books-list">
-            <div data-role="header" data-theme="b">
+            <div class="header" data-role="header" data-theme="b">
                 <h1>My Books</h1>
                 <a href="#page-new-book" id="btn-compose" data-icon="plus" data-iconpos="right" data-inline="true" data-role="button" data-rel="dialog" data-transition="fade" class="ui-btn-right">Add</a>
             </div>
