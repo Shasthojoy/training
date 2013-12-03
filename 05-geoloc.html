@@ -24,7 +24,7 @@
             function loadBooks (location) {
                 // We now define my_books within the local scope
                 // so we can pass it our latitude & longitude
-                var my_books = new Apigee.Collection( { "client":apigee, "type":"books", "qs":{"ql":"location within 15000 of "+location.coords.latitude+","+location.coords.longitude} } );
+                var my_books = new Apigee.Collection( { "client":apigee, "type":"books", "limit":10, "qs":{"ql":"location within 15000 of "+location.coords.latitude+","+location.coords.longitude} } );
                 
                 my_books.fetch( // Actual network call
 
